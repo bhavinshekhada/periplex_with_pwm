@@ -1,0 +1,53 @@
+[dumpfile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la2_waveform.vcd"
+[dumpfile_mtime] "Fri Apr 26 05:09:37 2024"
+[dumpfile_size] 3825
+[savefile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la2_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 1024 3072 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\test_ppd_fifo/wdata[47:0]
+top.\test_ppd_fifo/wr_en_i
+top.\test_ppd_fifo/rd_en_i
+top.\pp/ppd1/gpio_grp_en
+top.\pp/GPIO_grp/gpio_grp_en
+top.\pp/GPIO_grp/slv_sel[6:0]
+top.\pp/GPIO_grp/value[47:0]
+top.\pp/fifo_en
+top.\pp/w_gpio_grp_en
+top.\pp/GPIO_grp/gpio_slv_sel[6:0]
+top.\pp/GPIO_grp/r_slv_sel[6:0]
+top.\pp/GPIO_grp/interrupt
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_oe[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_out[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/g_config_data[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_oe[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_out[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_config_data[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_in[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_in[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/empty_o
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/rd_en_i
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/wdata[7:0]
+top.\pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/wr_en_i
+top.\test_txctrl/state[2:0]
+top.\test_txctrl/tx_byte[7:0]
+top.\test_ppe_fifo/rd_en_i
+top.\pp/req_arb/rd_req
+top.\pp/req_arb/i_interrupt[1:0]
+top.\pp/GPIO_grp/state[2:0]
+top.\pp/uart_grp/r_grp_id[1:0]
+top.\pp/uart_grp/state[2:0]
+top.\pp/GPIO_grp/r_grp_id[1:0]
+top.\pp/GPIO_grp/r_int[1:0]
+top.\pp/GPIO_grp/int_ack
+top.\test_ppe_fifo/wdata[47:0]
+top.\test_ppe_fifo/wr_en_i
+top.\pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/rd_gpio_fifo_en
+top.\pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_oe[7:0]
+top.\pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_out[7:0]
+top.\pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_in[7:0]
+top.\pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/g_config_data[7:0]

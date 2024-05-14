@@ -1,0 +1,463 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.187996 seconds.
+	VDB Netlist Checker took 0.15625 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 41.564 MB, end = 41.58 MB, delta = 0.016 MB
+	VDB Netlist Checker peak virtual memory usage = 61.408 MB
+VDB Netlist Checker resident set memory usage: begin = 52.496 MB, end = 52.716 MB, delta = 0.22 MB
+	VDB Netlist Checker peak resident set memory usage = 73.008 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.vdb".
+Netlist pre-processing took 0.56297 seconds.
+	Netlist pre-processing took 0.34375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 22.216 MB, end = 63.756 MB, delta = 41.54 MB
+	Netlist pre-processing peak virtual memory usage = 63.756 MB
+Netlist pre-processing resident set memory usage: begin = 34.064 MB, end = 74.604 MB, delta = 40.54 MB
+	Netlist pre-processing peak resident set memory usage = 74.604 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.net_proto" took 0.041 seconds
+Creating IO constraints file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.io_place'
+Packing took 0.189646 seconds.
+	Packing took 0.078125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 54.476 MB, end = 64.272 MB, delta = 9.796 MB
+	Packing peak virtual memory usage = 65.496 MB
+Packing resident set memory usage: begin = 64.456 MB, end = 75.312 MB, delta = 10.856 MB
+	Packing peak resident set memory usage = 76.316 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.net_proto
+Read proto netlist for file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.net_proto" took 0.01 seconds
+Setup net and block data structure took 0.8 seconds
+Packed netlist loading took 5.40283 seconds.
+	Packed netlist loading took 4.4375 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 64.272 MB, end = 196.336 MB, delta = 132.064 MB
+	Packed netlist loading peak virtual memory usage = 235.492 MB
+Packed netlist loading resident set memory usage: begin = 75.32 MB, end = 202.852 MB, delta = 127.532 MB
+	Packed netlist loading peak resident set memory usage = 241.9 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+SDC file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/constraints.sdc' parsed successfully.
+2 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv".
+Writing IO placement constraints to 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4.interface.io'.
+
+Reading placement constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4.interface.io'.
+
+Reading placement constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.io_place'.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 256 synchronizers as follows: 
+	Synchronizer 0:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 1:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 2:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 3:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 4:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 5:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 6:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 7:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 8:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 9:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 10:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 11:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 12:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 13:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 14:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 15:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 16:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 17:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 18:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 19:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 20:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 21:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 22:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 23:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 24:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 25:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 26:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 27:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 28:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 29:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 30:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 31:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 32:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 33:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 34:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 35:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 36:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 37:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 38:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 39:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 40:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 41:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 42:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 43:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 44:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 45:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 46:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 47:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 48:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 49:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 50:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 51:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 52:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 53:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 54:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 55:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 56:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 57:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 58:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 59:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 60:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 61:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 62:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 63:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 64:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 65:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 66:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 67:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 68:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 69:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 70:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 71:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 72:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 73:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 74:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 75:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 76:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 77:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 78:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 79:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 80:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 81:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 82:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 83:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 84:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 85:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 86:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 87:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 88:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 89:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 90:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 91:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 92:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 93:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 94:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 95:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 96:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 97:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 98:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 99:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 100:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 101:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 102:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 103:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 104:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 105:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 106:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 107:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 108:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 109:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 110:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 111:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 112:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 113:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 114:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 115:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 116:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 117:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 118:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 119:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 120:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 121:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 122:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 123:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 124:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 125:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 126:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 127:  test_ppd_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF test_ppd_fifo/rst_busy~FF
+	Synchronizer 128:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 129:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 130:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 131:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 132:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 133:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 134:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 135:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 136:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 137:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 138:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 139:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 140:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 141:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 142:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 143:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 144:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 145:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 146:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 147:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 148:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 149:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 150:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 151:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 152:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 153:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 154:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 155:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 156:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 157:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 158:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 159:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 160:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 161:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 162:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 163:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 164:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 165:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 166:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 167:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 168:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 169:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 170:  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 171:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 172:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 173:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 174:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 175:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 176:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 177:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 178:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 179:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 180:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 181:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 182:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 183:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 184:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 185:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 186:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 187:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 188:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 189:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 190:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 191:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 192:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 193:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 194:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 195:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 196:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 197:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 198:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 199:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 200:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 201:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 202:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 203:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 204:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 205:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 206:  pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 207:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 208:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 209:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 210:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 211:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 212:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 213:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 214:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 215:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 216:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 217:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 218:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 219:  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 220:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 221:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 222:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 223:  test_ppe_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF test_ppe_fifo/rst_busy~FF
+	Synchronizer 224:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 225:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 226:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 227:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 228:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 229:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 230:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 231:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 232:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 233:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 234:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 235:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 236:  pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 237:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 238:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 239:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 240:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 241:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 242:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 243:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 244:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 245:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 246:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 247:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 248:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 249:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 250:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 251:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 252:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 253:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 254:  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 255:  pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+Create C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1    51811172            5846         2.0%
+          2    51205968            6091         2.8%
+          3    38658184            5755         4.0%
+          4    42107852            4885         5.3%
+          5    12873110            4909         7.4%
+          6     4578191            4457        16.8%
+          7     1722650            4562        42.4%
+          8      935225            4215        62.7%
+          9      749620            3545        72.9%
+         10      749909            3530        78.7%
+         11      607047            3471        78.7%
+         12      588040            3397        82.7%
+         13      584577            3204        82.7%
+         14      581573            2819        82.7%
+         15      575994            3516        83.5%
+         16      573690            3189        83.5%
+         17      578288            2744        85.0%
+         18      569257            3730        85.0%
+         19      575986            3204        86.8%
+         20      558002            3566        86.8%
+         21      556618            3246        88.5%
+         22      572717            3214        89.7%
+         23      563403            2401        89.7%
+         24      569592            2549        90.5%
+         25      564434            2438        90.5%
+         26      566098            2448        90.9%
+         27      571920            3263        91.3%
+         28      568961            3219        91.3%
+         29      573050            2774        91.3%
+         30      569451            2774        91.9%
+         31      566775            2790        92.4%
+         32      565520            2355        93.1%
+         33      567469            2458        94.2%
+         34      559212            2057        94.5%
+         35      562977            1548        95.7%
+         36      565912            1707        96.6%
+         37      569339            1309        97.3%
+         38      572483            1803        97.6%
+         39      573787            1605        98.1%
+         40      577059            1605        98.7%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      559212            8890        30.0
+          1      520411            7993        29.1
+          2      456661           19494        28.5
+          3      394712           19120        27.8
+          4      364564           18938        27.3
+          5      345470           18954        26.6
+          6      325323            7589        25.9
+          7      313131           17887        25.0
+          8      303080           18009        24.2
+          9      297152           17988        23.3
+         10      289337           18637        22.3
+         11      286683            7204        21.3
+         12      282553            7733        20.4
+         13      285931           18728        19.4
+         14      274817            7573        18.4
+         15      271637            7530        17.4
+         16      268484            7322        16.4
+         17      264610            7274        15.4
+         18      262870           17771        14.5
+         19      260840            7149        13.6
+         20      258963            7354        12.7
+         21      257706            7576        11.9
+         22      256416            7883        11.1
+         23      254198            7856        10.4
+         24      254541            8867         9.8
+         25      254557           17394         9.2
+         26      249667            8466         8.6
+         27      248010            7129         8.0
+         28      247722            7694         7.4
+         29      246499            8633         7.0
+         30      247034            7576         6.5
+         31      245961            7576         6.0
+         32      245633            7680         5.4
+Starting incremental timing annealer
+Starting incremental timing quench 1 with temperature 0.1 and 1 moves per pass
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      251843            7680        30.0
+          1      251170            6868        27.5
+          2      258188            6524        25.2
+          3      261030            6206        23.1
+          4      260064            6173        21.2
+          5      260472            5977        19.4
+          6      258279            5977        17.7
+          7      258215            5977        16.2
+          8      257272            5977        14.8
+          9      255459            5977        13.5
+         10      254226            5977        12.2
+         11      252270           17229        11.1
+Generate C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4_after_qp.qdelay
+Placement successful: 11390 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.31738 at 0,17
+Congestion-weighted HPWL per net: 17.3854
+
+Reading placement constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.qplace'.
+Finished Realigning Types (3234 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.place'
+Placement took 109.844 seconds.
+	Placement took 131.531 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 216.656 MB, end = 252.52 MB, delta = 35.864 MB
+	Placement peak virtual memory usage = 754.7 MB
+Placement resident set memory usage: begin = 223.3 MB, end = 255.86 MB, delta = 32.56 MB
+	Placement peak resident set memory usage = 744.552 MB
+***** Ending stage placement *****
+

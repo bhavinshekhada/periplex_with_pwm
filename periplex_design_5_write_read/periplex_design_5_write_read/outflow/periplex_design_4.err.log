@@ -1,0 +1,2876 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2024 18:42:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 10:31:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 10:36:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 10:44:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 10:48:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 11:48:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 11:58:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 12:08:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 12:32:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 12:38:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2024 12:41:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 10:39:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'w_en' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:88)
+[EFX-0010 VERI-ERROR] 'data_byte' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:89)
+[EFX-0010 VERI-ERROR] 'w_en' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:99)
+[EFX-0010 VERI-ERROR] 'data_byte' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:100)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:109)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 10:41:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 10:47:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 10:48:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:05:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'UART_GRP_BUS_WIDTH' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:4)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:4)
+[EFX-0010 VERI-ERROR] module 'uart_peripheral' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:46)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:06:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'ASYNC_FIFO_WIDTH' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:22)
+[EFX-0010 VERI-ERROR] module 'uart_peripheral' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:51)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:06:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'i' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:46)
+[EFX-0010 VERI-ERROR] 'i' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:47)
+[EFX-0010 VERI-ERROR] 'i' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:48)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:07:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'tx_active' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:96)
+[EFX-0010 VERI-ERROR] cannot find port 'tx_done' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:97)
+[EFX-0010 VERI-ERROR] cannot find port 'tx_serial' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:98)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:07:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'tx_active' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:96)
+[EFX-0010 VERI-ERROR] cannot find port 'tx_done' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:97)
+[EFX-0010 VERI-ERROR] cannot find port 'tx_serial' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/periplex.v:98)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:09:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:13:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:19:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:19:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:31:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'dt_fifo' (VERI-1206) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:111)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_datasync_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:151)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:239)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_bin2gray_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:332)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_top_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:663)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_ram_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:942)
+[EFX-0010 VERI-ERROR] module 'efx_fifo_ctl_378d79e1dcb040219a2787531019ea5f' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/ip/dt_fifo/dt_fifo.v:1373)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:32:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:48:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clk' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:28)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:53:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clk' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:28)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:53:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clk' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_peripheral.v:28)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:54:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 11:59:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_phy.v:29)
+[EFX-0010 VERI-ERROR] module 'uart_phy' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_phy.v:61)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:02:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:07:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:12:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:30:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:37:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:42:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 12:51:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 13:00:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 13:00:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 29, 2024 14:03:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:27:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] loop count limit of 20000 exceeded; condition is never false (VERI-1066) (/home/kaush/Desktop/Efinity/periplex_design_4/design/asyfifo.v:44)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:29:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] loop count limit of 20000 exceeded; condition is never false (VERI-1066) (/home/kaush/Desktop/Efinity/periplex_design_4/design/asyfifo.v:44)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:36:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:47:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 're' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/asyfifo.v:124)
+[EFX-0010 VERI-ERROR] module 'dual_port_sync' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/asyfifo.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:47:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:52:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:57:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 09:59:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 16:59:06
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'config_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_tx.v:56)
+[EFX-0010 VERI-ERROR] 'config_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_tx.v:69)
+[EFX-0010 VERI-ERROR] 'config_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_tx.v:91)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_tx.v:115)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:00:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:05:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:18:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_config_bus' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_grp_ctrl.v:75)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_4/design/uart_grp_ctrl.v:81)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:19:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:20:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:23:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:30:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:37:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 17:39:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 18:15:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 30, 2024 18:29:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 09:18:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 10:01:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 12:13:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] module 'periplex' does not have a parameter named CLKS_PER_BIT (VERI-1184) (/home/kaush/Desktop/Efinity/periplex_design_4_write_config/design/test_module.v:72)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 12:13:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 14:24:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 16:51:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 16:53:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 18:20:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'enable' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_4_write_config/design/periplex.v:57)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 18:22:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 18:27:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 18:33:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 01, 2024 18:39:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 10:47:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 11:19:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] mixed blocking and non-blocking assignments on 'flag_frame_stop' is not supported (VERI-1070) (/home/kaush/Desktop/Efinity/periplex_design_4_write_config/design/pp_decoder.v:76)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 11:36:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] mixed blocking and non-blocking assignments on 'flag_frame_stop' is not supported (VERI-1070) (/home/kaush/Desktop/Efinity/periplex_design_4_write_config/design/pp_decoder.v:64)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 12:26:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 12:37:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 12:40:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 12:43:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 12:58:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 15:47:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_phy.v:79)
+[EFX-0010 VERI-ERROR] module 'uart_phy' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_phy.v:92)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 15:48:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:112)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:119)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 15:48:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'fifo_enable' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:107)
+[EFX-0010 VERI-ERROR] cannot find port 'fifo_data' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:108)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 15:49:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 15:49:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:23:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:30:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:31:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:34:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:35:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:46:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_int' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:96)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:46:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'flag_read' is constantly driven from multiple places (VDB-1000) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:92)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:91)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 16:47:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:23:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:30:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:23)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:95)
+[EFX-0010 VERI-ERROR] assignment to input 'int' (VERI-1214) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:96)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:110)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:53:06
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:92)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'flag_read' is not permitted (VERI-1195) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:94)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:95)
+[EFX-0010 VERI-ERROR] assignment to input 'int' (VERI-1214) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:96)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:110)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:53:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'flag_read' is not permitted (VERI-1195) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:94)
+[EFX-0010 VERI-ERROR] assignment to input 'int' (VERI-1214) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:96)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:110)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:54:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'int_ack' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:99)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:107)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 17:55:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:06:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:14:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'TOTAL_GRP' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:20)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:20)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:129)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:14:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:19:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] system function call 'clog4' is not allowed here (VERI-1183) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:34)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:20:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:102)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:20:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:25:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'clog4g' is already declared (VERI-1116) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:112)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:25:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:36:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:47:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:50:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:56:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] external reference 'ceil_divide_by_4' remains unresolved (VERI-1172) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:34)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 02, 2024 18:56:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] external reference 'ceil_divide_by_4' remains unresolved (VERI-1172) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:34)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:31:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:32:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'RAH_PACKET_WIDTH' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:8)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:8)
+[EFX-0010 VERI-ERROR] module 'pp_encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:13)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:32:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_grp_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:36:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_grp_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:37:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_grp_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:37:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_grp_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:43:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [1:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_grp_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:44:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:46:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:47:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'pp_encoder' (VERI-1063) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:142)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 09:48:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:09:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:107)
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:114)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:117)
+[EFX-0010 VERI-ERROR] 'flag_rd' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:107)
+[EFX-0010 VERI-ERROR] single value range is not allowed in packed dimension (VERI-2079) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:107)
+[EFX-0010 VERI-ERROR] 'flag_rd' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] single value range is not allowed in packed dimension (VERI-2079) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] 'flag_rd' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:112)
+[EFX-0010 VERI-ERROR] 'count' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:113)
+[EFX-0010 VERI-ERROR] 'count' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:114)
+[EFX-0010 VERI-ERROR] 'r_int' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] single value range is not allowed in packed dimension (VERI-2079) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] 'count' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:117)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:10:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:114)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:117)
+[EFX-0010 VERI-ERROR] 'flag_rd' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:112)
+[EFX-0010 VERI-ERROR] 'count' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:113)
+[EFX-0010 VERI-ERROR] 'count' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:114)
+[EFX-0010 VERI-ERROR] 'r_int' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] single value range is not allowed in packed dimension (VERI-2079) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:115)
+[EFX-0010 VERI-ERROR] 'count' is not a type (VERI-1281) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:117)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:11:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:12:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] part-select has a negative or zero size (VERI-1095) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] index -1 is out of range [3:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:14:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] part-select has a negative or zero size (VERI-1095) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] index -1 is out of range [3:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:15:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] part-select has a negative or zero size (VERI-1095) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] index -1 is out of range [3:0] for 'rd_f_empty' (VERI-1216) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:16:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:18:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'remain' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:20:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'Parameter' is an unknown type (VERI-1556) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:39)
+[EFX-0010 VERI-ERROR] 'LAST_GRP_WIDTH' is not a constant (VERI-1188) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:109)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:22:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:24:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:30:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:37:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:38)
+[EFX-0010 VERI-ERROR] 'TOTAL_UART' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:12)
+[EFX-0010 VERI-ERROR] module 'rd_req_arb' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:74)
+[EFX-0010 VERI-ERROR] 'TOTAL_GRP' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:77)
+[EFX-0010 VERI-ERROR] module 'encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:38:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:38)
+[EFX-0010 VERI-ERROR] module 'rd_req_arb' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:74)
+[EFX-0010 VERI-ERROR] 'TOTAL_GRP' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:77)
+[EFX-0010 VERI-ERROR] module 'encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:39:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'TOTAL_GRP' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:77)
+[EFX-0010 VERI-ERROR] module 'encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 10:39:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:04:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_slv_sel' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:165)
+[EFX-0010 VERI-ERROR] 'r_slv_sel' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:180)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:196)
+[EFX-0010 VERI-ERROR] module 'encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/uart_grp_ctrl.v:221)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:05:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'encoder' (VERI-1206) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/rd_req_arb.v:100)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:06:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'int_ack' is not permitted (VERI-1100) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:41)
+[EFX-0010 VERI-ERROR] module 'pp_encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:52)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:07:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rd_f_enable' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:102)
+[EFX-0010 VERI-ERROR] cannot find port 'ack' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:135)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:27:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:110)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:160)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:28:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:9)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:28:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rd_dv' on this module (VERI-1010) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/periplex.v:154)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:28:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:42:08
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_fifo_en' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:35)
+[EFX-0010 VERI-ERROR] 'r_fifo_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:36)
+[EFX-0010 VERI-ERROR] 'r_fifo_en' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:61)
+[EFX-0010 VERI-ERROR] 'r_fifo_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:62)
+[EFX-0010 VERI-ERROR] 'r_fifo_en' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:68)
+[EFX-0010 VERI-ERROR] 'r_fifo_data' is not declared (VERI-1128) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:69)
+[EFX-0010 VERI-ERROR] module 'pp_encoder' is ignored due to previous errors (VERI-1072) (/home/kaush/Desktop/Efinity/periplex_design_5_write_read/design/pp_encoder.v:71)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:43:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:50:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:53:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 12:56:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 14:00:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 14:01:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 14:02:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 14:14:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 15:00:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 15:08:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 15:39:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 15:47:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 15:56:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 16:24:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 03, 2024 17:13:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 10:04:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'flag_rd[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:127)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:192)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 10:28:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'flag_rd[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:127)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:192)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 10:29:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_grp_id' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:139)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:140)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:141)
+[EFX-0010 VERI-ERROR] 'r_grp_id' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:151)
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:153)
+[EFX-0010 VERI-ERROR] 'r_strobe' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:154)
+[EFX-0010 VERI-ERROR] 'r_slv_sel' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:155)
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:161)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:166)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:167)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:168)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:169)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:170)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:171)
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:190)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:191)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:192)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:197)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 10:30:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'flag_rd[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:127)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:192)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 11:09:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 11:11:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 11:50:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 16:10:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 16:18:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 04, 2024 17:11:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 14:57:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 14:58:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 16:20:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 16:50:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 17:10:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 17:42:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 18:40:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2024 18:45:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 00:01:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 09:52:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 09:57:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 11:03:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'uart_fifo' (VERI-1063) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:49)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 11:06:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 11:55:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 12:45:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'wr_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:43)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:44)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:45)
+[EFX-0010 VERI-ERROR] cannot find port 'wdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:46)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:47)
+[EFX-0010 VERI-ERROR] cannot find port 'rdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:48)
+[EFX-0010 VERI-ERROR] cannot find port 'empty_o' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:49)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 12:46:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'wr_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:43)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:44)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:45)
+[EFX-0010 VERI-ERROR] cannot find port 'wdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:46)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:47)
+[EFX-0010 VERI-ERROR] cannot find port 'rdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:48)
+[EFX-0010 VERI-ERROR] cannot find port 'empty_o' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:49)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 12:47:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'wr_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:43)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_clk_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:44)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:45)
+[EFX-0010 VERI-ERROR] cannot find port 'wdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:46)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en_i' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:47)
+[EFX-0010 VERI-ERROR] cannot find port 'rdata' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:48)
+[EFX-0010 VERI-ERROR] cannot find port 'empty_o' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v:49)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 12:48:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 12:54:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 14:20:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 06, 2024 15:19:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 07, 2024 23:39:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 08, 2024 10:16:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 08, 2024 18:19:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clk' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:70)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:71)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:72)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:73)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:74)
+[EFX-0010 VERI-ERROR] cannot find port 'f_empty' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:75)
+[EFX-0010 VERI-ERROR] cannot find port 'f_full' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:76)
+[EFX-0010 VERI-ERROR] cannot find port 'f_a_empty' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:77)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 08, 2024 18:22:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 10:07:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'datacount_o[7]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:81)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:123)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 10:09:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 14:20:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 15:37:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 16:02:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 16:24:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'rd_dv' is not permitted (VERI-1195) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:218)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:224)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 16:29:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 17:24:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2024 17:45:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 19, 2024 11:34:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:33:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'i2c_grp_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:112)
+[EFX-0010 VERI-ERROR] cannot find port 'gpio_grp_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:113)
+[EFX-0010 VERI-ERROR] cannot find port 'uart_dt_fifo_enable' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0010 VERI-ERROR] cannot find port 'uart_dt_fifo_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:134)
+[EFX-0010 VERI-ERROR] cannot find port 'uart_config_bus' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:135)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:39:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'gpio_grp_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:113)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:44:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'i2c_grp_ctrl' (VERI-1063) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:191)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:44:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'uart_dt_fifo_enable' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:205)
+[EFX-0010 VERI-ERROR] cannot find port 'uart_dt_fifo_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:206)
+[EFX-0010 VERI-ERROR] cannot find port 'uart_config_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:207)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:48:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 51 is out of range [50:0] for 'w_gpio_dt_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:244)
+[EFX-0010 VERI-ERROR] index 8 is out of range [7:0] for 'w_rd_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:245)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:58:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 51 is out of range [50:0] for 'w_gpio_dt_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:244)
+[EFX-0010 VERI-ERROR] index 8 is out of range [7:0] for 'w_rd_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:245)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 17:59:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 51 is out of range [50:0] for 'w_gpio_dt_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:244)
+[EFX-0010 VERI-ERROR] index 8 is out of range [7:0] for 'w_rd_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:245)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:00:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 8 is out of range [7:0] for 'w_rd_fifo_data' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:245)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:02:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_rd_fifo_data[7]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:203)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:236)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:07:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_rd_fifo_en[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:126)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:153)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:09:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_interrupt[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:127)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:154)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:11:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:127)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:154)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:12:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:28:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:33:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:35:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:42:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'DATAWIDTH' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:12)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:12)
+[EFX-0010 VERI-ERROR] 'DATAWIDTH' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:13)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:13)
+[EFX-0010 VERI-ERROR] 'DATAWIDTH' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:14)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:14)
+[EFX-0010 VERI-ERROR] module 'test_module' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:43:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] missing compiler directive (VERI-1068) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:24)
+[EFX-0010 VERI-ERROR] module 'test_module' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v:131)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:44:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:51:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 18:57:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 20, 2024 19:07:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 09:30:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 12:19:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 12:37:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:23:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:37:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:29)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:38:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:220)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:220)
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:223)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:224)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:225)
+[EFX-0010 VERI-ERROR] 'r_int' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:226)
+[EFX-0010 VERI-ERROR] module 'gpio_grp_ctrl' is ignored due to previous errors (VERI-1072) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:230)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:38:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:222)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:222)
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:224)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:225)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:226)
+[EFX-0010 VERI-ERROR] 'r_int' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:227)
+[EFX-0010 VERI-ERROR] module 'gpio_grp_ctrl' is ignored due to previous errors (VERI-1072) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:231)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:39:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_rd_fifo_en' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:224)
+[EFX-0010 VERI-ERROR] 'r_rd_dv' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:225)
+[EFX-0010 VERI-ERROR] 'r_rd_data' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:226)
+[EFX-0010 VERI-ERROR] 'r_int' is not declared (VERI-1128) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:227)
+[EFX-0010 VERI-ERROR] module 'gpio_grp_ctrl' is ignored due to previous errors (VERI-1072) (E:\intern\KAUSHAL PROJECTS\periplex_design_6_UART_I2C\periplex_design_6_UART_I2C\design\GPIO_grp_ctrl.v:231)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:40:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rd_f_empty' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:166)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_fifo_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:167)
+[EFX-0010 VERI-ERROR] cannot find port 'int_ack' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:168)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_fifo_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:169)
+[EFX-0010 VERI-ERROR] cannot find port 'interrupt' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:170)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_dv' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:171)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:172)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:41:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:165)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:275)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 14:41:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 15:55:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:02:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:07:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:10:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:19:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 7 is out of range [2:0] for 'w_gpio_dt_fifo_enable' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:247)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:23:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:36:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 16:44:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:03:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:18:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:27:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:33:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '*' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:27)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:35:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:28)
+[EFX-0010 VERI-ERROR] 'GPIO_COMMOM_RANGE' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:89)
+[EFX-0010 VERI-ERROR] 'GPIO_COMMOM_RANGE' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:102)
+[EFX-0010 VERI-ERROR] module 'pp_decoder' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:160)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:36:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:42:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 22, 2024 17:47:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 09:25:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:02:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:32)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:02:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:230)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:259)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:03:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] illegal net data type (VERI-1520) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:17)
+[EFX-0010 VERI-ERROR] 'config_bus' is an unknown type (VERI-1556) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:19)
+[EFX-0010 VERI-ERROR] 'config_bus' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:19)
+[EFX-0010 VERI-ERROR] module 'gpio_grp_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:114)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:33:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:191)
+[EFX-0010 VERI-ERROR] module 'gpio_grp_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:228)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:33:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:0] for 'rd_f_empty' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:120)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:40:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:0] for 'rd_f_empty' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:120)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:42:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:0] for 'rd_f_empty' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:120)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:49:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:0] for 'rd_f_empty' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v:120)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:54:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_interrupt[1]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:150)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:56:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_interrupt[1]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:150)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 16:57:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_interrupt[1]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:150)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:00:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:148)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:176)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:256)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:00:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:148)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:176)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:256)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:01:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:03:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'w_uart_rd_dv' (VERI-1011) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:151)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'w_uart_rd_dv' (VERI-1011) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:179)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:256)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:03:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:08:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:09:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:10:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:18:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:30:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'TOTAL_GPIO_CTRLS' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:41)
+[EFX-0010 VERI-ERROR] module 'uart_grp_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:222)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:31:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:0] for 'rd_f_empty' (VERI-1216) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v:115)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:32:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:47:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 17:54:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:02:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:14:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:30:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:42:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_gpio_rd_f_empty[0]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:219)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:219)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:44:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:48:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 18:57:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 22:31:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 23:36:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 23, 2024 23:43:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 00:34:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 00:53:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'w_uart_rd_dv' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:133)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:161)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 00:53:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 09:13:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 09:54:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 10:03:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 12:03:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 12:05:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 24, 2024 14:51:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 13:06:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 14:04:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 14:41:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 14:47:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 15:14:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 16:15:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 17:02:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 17:08:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 17:35:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 17:39:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 25, 2024 18:28:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 09:57:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 10:03:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 17:46:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 18:14:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 18:32:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 26, 2024 18:53:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 27, 2024 09:44:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 27, 2024 10:33:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 10:50:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 11:02:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 11:20:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 11:59:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 13:03:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'rd_gpio_out[7]' is constantly driven from multiple places (VDB-1000) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:73)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:85)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 13:06:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 14:02:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 15:01:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 15:31:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 16:05:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:16)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:16)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 16:06:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] assignment to input 'gpio_in' (VERI-1214) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:54)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_gpio_out' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:55)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_fifo_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:56)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 16:07:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] assignment to input 'gpio_in' (VERI-1214) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:54)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_gpio_out' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:55)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_fifo_en' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v:56)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 16:08:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 16:18:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 17:09:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 29, 2024 18:02:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 09:36:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 10:24:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 10:51:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'g_rd_fifo_en' (VERI-1011) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:82)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:109)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 10:52:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] mixed blocking and non-blocking assignments on 'rd_gpio_out' is not supported (VERI-1070) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:78)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 10:53:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 11:13:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 11:56:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 12:32:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 12:52:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 14:15:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 14:37:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:123)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:123)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 14:38:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 14:52:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 15:07:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 16:47:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 17:38:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 17:41:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 18:12:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 18:34:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:25)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:25)
+[EFX-0010 VERI-ERROR] syntax error near 'assign' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:125)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'assign' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:125)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:15)
+[EFX-0010 VERI-ERROR] 'g_oe' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:53)
+[EFX-0010 VERI-ERROR] 'g_oe' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:65)
+[EFX-0010 VERI-ERROR] 'g_oe' is not declared (VERI-1128) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:126)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 18:35:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'assign' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:125)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'assign' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:125)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:15)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 18:35:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:15)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 18:36:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 19:06:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'rd_gpio_out' is not permitted (VERI-1100) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:93)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'rd_gpio_out' is not permitted (VERI-1100) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:101)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'rd_gpio_out' is not permitted (VERI-1100) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:109)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'rd_gpio_out' is not permitted (VERI-1100) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:117)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 30, 2024 19:07:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:15)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 01, 2024 11:08:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 01, 2024 12:34:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 01, 2024 13:04:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 09:16:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 09:40:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 10:01:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 10:14:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 10:34:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:100)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:100)
+[EFX-0010 VERI-ERROR] module 'gpio_ctrl' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 10:44:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 11:09:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 11:40:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 12:06:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 12:25:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 02, 2024 12:50:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 15:53:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:24)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 15:54:08
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] 'GPIO_PERIPHERAL' is already declared (VERI-1116) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:256)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:295)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 15:55:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] 'GPIO_PERIPHERAL' is already declared (VERI-1116) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:256)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:295)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 15:56:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 15:59:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] module 'pp_decoder' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:00:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:01:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:136)
+[EFX-0010 VERI-ERROR] module 'pp_decoder' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:04:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (SORT-1015) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\PWM_peripheral.v:1)
+[EFX-0010 VERI-ERROR] cannot open include file 'periplex.vh' (VERI-1245) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:1)
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\pwm_grp_ctrl.v:83)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:07:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v:83)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:08:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'PWM_peripheral' (VERI-1063) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:271)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:09:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] module 'PWM_peripheral' does not have a parameter named GPIO_FIFO_WIDTH (VERI-1184) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:258)
+[EFX-0010 VERI-ERROR] module 'PWM_peripheral' does not have a parameter named DATAWIDTH (VERI-1184) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:259)
+[EFX-0010 VERI-ERROR] cannot find port 'g_config_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:265)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:12:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'g_config_data' on this module (VERI-1010) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:267)
+[EFX-0021 ERROR] Verific elaboration of module 'test_module' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:12:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 16:40:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 17:15:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 03, 2024 18:32:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 04, 2024 11:08:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 04, 2024 15:49:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:268)
+[EFX-0010 VERI-ERROR] module 'periplex' is ignored due to previous errors (VERI-1072) (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v:295)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 04, 2024 15:49:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 04, 2024 15:49:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 04, 2024 17:18:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 06, 2024 09:28:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2024 09:47:11
+///////////////////////////////////
+

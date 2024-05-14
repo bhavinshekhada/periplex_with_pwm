@@ -1,0 +1,12 @@
+[dumpfile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la3_waveform.vcd"
+[dumpfile_mtime] "Sat Apr 06 10:45:11 2024"
+[dumpfile_size] 258
+[savefile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la3_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 2048 6144 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\pp/UART_PERIPHERAL[0].uart/uart/uart_rd_fifo/rdata[7:0]

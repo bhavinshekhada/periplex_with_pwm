@@ -1,0 +1,2502 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "bda26abb60bb4df6ba7150246306acaf",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/fifo_read_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/hold",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_pwm_grp_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_pwm_dt_fifo_enable",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_slv_sel",
+                    "width": 7,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_GRP/dt_fifo_enable",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_GRP/parallel",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_GRP/pwm_grp_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_GRP/slv_sel",
+                    "width": 7,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_GRP/pwm_slv_sel",
+                    "width": 7,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_pwm_fifo_enable",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_pwm_fifo_enable",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/pwm_out",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/pwm_out",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_pwm_fifo_data",
+                    "width": 51,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_config_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/PWM_out",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/state",
+                    "width": 2,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/read",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/o_data",
+                    "width": 64,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/count",
+                    "width": 4,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la1",
+            "type": "la",
+            "uuid": "7dffe0f7150641d0be994342fdcdd44d",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/f_empty",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/f_a_empty",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la2",
+            "type": "la",
+            "uuid": "46f209c568d44b178cea9b113c970d90",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/w_gpio_data_byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/w_gpio_wr_en",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la3",
+            "type": "la",
+            "uuid": "4320b9705a804cf7a0b14bb865028c0f",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/i_data",
+                    "width": 8,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "test_module",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "clk1",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "fifo_read_en",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "hold",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "w_pwm_grp_en",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "w_pwm_dt_fifo_enable[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "w_slv_sel[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "w_slv_sel[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "w_slv_sel[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "w_slv_sel[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[4]",
+                        "net": "w_slv_sel[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[5]",
+                        "net": "w_slv_sel[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[6]",
+                        "net": "w_slv_sel[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "dt_fifo_enable[0]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "parallel",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "pwm_grp_en",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[0]",
+                        "net": "slv_sel[0]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[1]",
+                        "net": "slv_sel[1]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[2]",
+                        "net": "slv_sel[2]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[3]",
+                        "net": "slv_sel[3]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[4]",
+                        "net": "slv_sel[4]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[5]",
+                        "net": "slv_sel[5]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[6]",
+                        "net": "slv_sel[6]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "pwm_slv_sel[0]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "pwm_slv_sel[1]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "pwm_slv_sel[2]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "pwm_slv_sel[3]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[4]",
+                        "net": "pwm_slv_sel[4]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[5]",
+                        "net": "pwm_slv_sel[5]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[6]",
+                        "net": "pwm_slv_sel[6]",
+                        "path": [
+                            "pp",
+                            "PWM_GRP"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "dt_pwm_fifo_enable",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "dt_pwm_fifo_enable",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "pwm_out",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "pwm_out",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[0]",
+                        "net": "dt_pwm_fifo_data[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[1]",
+                        "net": "dt_pwm_fifo_data[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[2]",
+                        "net": "dt_pwm_fifo_data[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[3]",
+                        "net": "dt_pwm_fifo_data[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[4]",
+                        "net": "dt_pwm_fifo_data[4]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[5]",
+                        "net": "dt_pwm_fifo_data[5]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[6]",
+                        "net": "dt_pwm_fifo_data[6]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[7]",
+                        "net": "dt_pwm_fifo_data[7]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[8]",
+                        "net": "dt_pwm_fifo_data[8]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[9]",
+                        "net": "dt_pwm_fifo_data[9]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[10]",
+                        "net": "dt_pwm_fifo_data[10]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[11]",
+                        "net": "dt_pwm_fifo_data[11]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[12]",
+                        "net": "dt_pwm_fifo_data[12]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[13]",
+                        "net": "dt_pwm_fifo_data[13]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[14]",
+                        "net": "dt_pwm_fifo_data[14]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[15]",
+                        "net": "dt_pwm_fifo_data[15]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[16]",
+                        "net": "dt_pwm_fifo_data[16]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[17]",
+                        "net": "dt_pwm_fifo_data[17]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[18]",
+                        "net": "dt_pwm_fifo_data[18]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[19]",
+                        "net": "dt_pwm_fifo_data[19]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[20]",
+                        "net": "dt_pwm_fifo_data[20]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[21]",
+                        "net": "dt_pwm_fifo_data[21]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[22]",
+                        "net": "dt_pwm_fifo_data[22]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[23]",
+                        "net": "dt_pwm_fifo_data[23]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[24]",
+                        "net": "dt_pwm_fifo_data[24]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[25]",
+                        "net": "dt_pwm_fifo_data[25]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[26]",
+                        "net": "dt_pwm_fifo_data[26]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[27]",
+                        "net": "dt_pwm_fifo_data[27]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[28]",
+                        "net": "dt_pwm_fifo_data[28]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[29]",
+                        "net": "dt_pwm_fifo_data[29]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[30]",
+                        "net": "dt_pwm_fifo_data[30]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[31]",
+                        "net": "dt_pwm_fifo_data[31]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[32]",
+                        "net": "dt_pwm_fifo_data[32]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[33]",
+                        "net": "dt_pwm_fifo_data[33]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[34]",
+                        "net": "dt_pwm_fifo_data[34]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[35]",
+                        "net": "dt_pwm_fifo_data[35]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[36]",
+                        "net": "dt_pwm_fifo_data[36]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[37]",
+                        "net": "dt_pwm_fifo_data[37]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[38]",
+                        "net": "dt_pwm_fifo_data[38]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[39]",
+                        "net": "dt_pwm_fifo_data[39]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[40]",
+                        "net": "dt_pwm_fifo_data[40]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[41]",
+                        "net": "dt_pwm_fifo_data[41]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[42]",
+                        "net": "dt_pwm_fifo_data[42]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[43]",
+                        "net": "dt_pwm_fifo_data[43]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[44]",
+                        "net": "dt_pwm_fifo_data[44]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[45]",
+                        "net": "dt_pwm_fifo_data[45]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[46]",
+                        "net": "dt_pwm_fifo_data[46]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[47]",
+                        "net": "dt_pwm_fifo_data[47]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[48]",
+                        "net": "dt_pwm_fifo_data[48]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[49]",
+                        "net": "dt_pwm_fifo_data[49]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[50]",
+                        "net": "dt_pwm_fifo_data[50]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[0]",
+                        "net": "pwm_config_data[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[1]",
+                        "net": "pwm_config_data[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[2]",
+                        "net": "pwm_config_data[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[3]",
+                        "net": "pwm_config_data[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[4]",
+                        "net": "pwm_config_data[4]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[5]",
+                        "net": "pwm_config_data[5]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[6]",
+                        "net": "pwm_config_data[6]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[7]",
+                        "net": "pwm_config_data[7]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[8]",
+                        "net": "pwm_config_data[8]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[9]",
+                        "net": "pwm_config_data[9]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[10]",
+                        "net": "pwm_config_data[10]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[11]",
+                        "net": "pwm_config_data[11]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[12]",
+                        "net": "pwm_config_data[12]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[13]",
+                        "net": "pwm_config_data[13]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[14]",
+                        "net": "pwm_config_data[14]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[15]",
+                        "net": "pwm_config_data[15]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[16]",
+                        "net": "pwm_config_data[16]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[17]",
+                        "net": "pwm_config_data[17]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[18]",
+                        "net": "pwm_config_data[18]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[19]",
+                        "net": "pwm_config_data[19]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[20]",
+                        "net": "pwm_config_data[20]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[21]",
+                        "net": "pwm_config_data[21]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[22]",
+                        "net": "pwm_config_data[22]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[23]",
+                        "net": "pwm_config_data[23]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[24]",
+                        "net": "pwm_config_data[24]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[25]",
+                        "net": "pwm_config_data[25]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[26]",
+                        "net": "pwm_config_data[26]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[27]",
+                        "net": "pwm_config_data[27]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[28]",
+                        "net": "pwm_config_data[28]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[29]",
+                        "net": "pwm_config_data[29]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[30]",
+                        "net": "pwm_config_data[30]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[31]",
+                        "net": "pwm_config_data[31]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "PWM_out",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[0]",
+                        "net": "state[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[1]",
+                        "net": "state[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "read",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[0]",
+                        "net": "o_data[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[1]",
+                        "net": "o_data[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[2]",
+                        "net": "o_data[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[3]",
+                        "net": "o_data[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[4]",
+                        "net": "o_data[4]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[5]",
+                        "net": "o_data[5]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[6]",
+                        "net": "o_data[6]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[7]",
+                        "net": "o_data[7]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[8]",
+                        "net": "o_data[8]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[9]",
+                        "net": "o_data[9]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[10]",
+                        "net": "o_data[10]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[11]",
+                        "net": "o_data[11]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[12]",
+                        "net": "o_data[12]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[13]",
+                        "net": "o_data[13]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[14]",
+                        "net": "o_data[14]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[15]",
+                        "net": "o_data[15]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[16]",
+                        "net": "o_data[16]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[17]",
+                        "net": "o_data[17]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[18]",
+                        "net": "o_data[18]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[19]",
+                        "net": "o_data[19]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[20]",
+                        "net": "o_data[20]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[21]",
+                        "net": "o_data[21]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[22]",
+                        "net": "o_data[22]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[23]",
+                        "net": "o_data[23]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[24]",
+                        "net": "o_data[24]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[25]",
+                        "net": "o_data[25]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[26]",
+                        "net": "o_data[26]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[27]",
+                        "net": "o_data[27]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[28]",
+                        "net": "o_data[28]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[29]",
+                        "net": "o_data[29]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[30]",
+                        "net": "o_data[30]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[31]",
+                        "net": "o_data[31]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[32]",
+                        "net": "o_data[32]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[33]",
+                        "net": "o_data[33]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[34]",
+                        "net": "o_data[34]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[35]",
+                        "net": "o_data[35]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[36]",
+                        "net": "o_data[36]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[37]",
+                        "net": "o_data[37]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[38]",
+                        "net": "o_data[38]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[39]",
+                        "net": "o_data[39]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[40]",
+                        "net": "o_data[40]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[41]",
+                        "net": "o_data[41]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[42]",
+                        "net": "o_data[42]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[43]",
+                        "net": "o_data[43]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[44]",
+                        "net": "o_data[44]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[45]",
+                        "net": "o_data[45]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[46]",
+                        "net": "o_data[46]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[47]",
+                        "net": "o_data[47]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[48]",
+                        "net": "o_data[48]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[49]",
+                        "net": "o_data[49]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[50]",
+                        "net": "o_data[50]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[51]",
+                        "net": "o_data[51]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[52]",
+                        "net": "o_data[52]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[53]",
+                        "net": "o_data[53]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[54]",
+                        "net": "o_data[54]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[55]",
+                        "net": "o_data[55]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[56]",
+                        "net": "o_data[56]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[57]",
+                        "net": "o_data[57]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[58]",
+                        "net": "o_data[58]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[59]",
+                        "net": "o_data[59]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[60]",
+                        "net": "o_data[60]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[61]",
+                        "net": "o_data[61]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[62]",
+                        "net": "o_data[62]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[63]",
+                        "net": "o_data[63]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[0]",
+                        "net": "count[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[1]",
+                        "net": "count[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[2]",
+                        "net": "count[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[3]",
+                        "net": "count[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la1_clk",
+                        "net": "wr_clk_int",
+                        "path": [
+                            "test_ppd_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe0",
+                        "net": "f_empty",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1",
+                        "net": "f_a_empty",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_clk",
+                        "net": "clk2",
+                        "path": []
+                    },
+                    {
+                        "name": "la2_probe0[0]",
+                        "net": "w_gpio_data_byte[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[1]",
+                        "net": "w_gpio_data_byte[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[2]",
+                        "net": "w_gpio_data_byte[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[3]",
+                        "net": "w_gpio_data_byte[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[4]",
+                        "net": "w_gpio_data_byte[4]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[5]",
+                        "net": "w_gpio_data_byte[5]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[6]",
+                        "net": "w_gpio_data_byte[6]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[7]",
+                        "net": "w_gpio_data_byte[7]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe1",
+                        "net": "w_gpio_wr_en",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la3_clk",
+                        "net": "rd_clk_int",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_wr_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[0]",
+                        "net": "i_data[0]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[1]",
+                        "net": "i_data[1]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[2]",
+                        "net": "i_data[2]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[3]",
+                        "net": "i_data[3]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[4]",
+                        "net": "i_data[4]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[5]",
+                        "net": "i_data[5]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[6]",
+                        "net": "i_data[6]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0[7]",
+                        "net": "i_data[7]",
+                        "path": [
+                            "pp",
+                            "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                            "PWM_phy_dut",
+                            "pwm_generator_dut"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 2048,
+            "capture_control": true,
+            "selected_nets": [
+                {
+                    "name": "fifo_read_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "f_empty",
+                    "width": 1,
+                    "clk_domain": "test_ppd_fifo/u_efx_fifo_top/wr_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "f_a_empty",
+                    "width": 1,
+                    "clk_domain": "test_ppd_fifo/u_efx_fifo_top/wr_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "hold",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "w_pwm_grp_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "w_pwm_dt_fifo_enable",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_slv_sel",
+                    "width": 7,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 6,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "dt_fifo_enable",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_GRP"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "parallel",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_GRP"
+                    ]
+                },
+                {
+                    "name": "pwm_grp_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_GRP"
+                    ]
+                },
+                {
+                    "name": "slv_sel",
+                    "width": 7,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_GRP"
+                    ],
+                    "net_idx_left": 6,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "pwm_slv_sel",
+                    "width": 7,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_GRP"
+                    ],
+                    "net_idx_left": 6,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "dt_pwm_fifo_enable",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "dt_pwm_fifo_enable",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "pwm_out",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "w_gpio_data_byte",
+                    "width": 8,
+                    "clk_domain": "clk2",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_wr_en",
+                    "width": 1,
+                    "clk_domain": "clk2",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "pwm_out",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "dt_pwm_fifo_data",
+                    "width": 51,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL"
+                    ],
+                    "net_idx_left": 50,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "pwm_config_data",
+                    "width": 32,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "i_data",
+                    "width": 8,
+                    "clk_domain": "pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "PWM_out",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ]
+                },
+                {
+                    "name": "state",
+                    "width": 2,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ],
+                    "net_idx_left": 1,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "read",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ]
+                },
+                {
+                    "name": "o_data",
+                    "width": 64,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "count",
+                    "width": 4,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "PWM_PERIPHERAL[0].PWMPERIPHERAL",
+                        "PWM_phy_dut",
+                        "pwm_generator_dut"
+                    ],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "test_module",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

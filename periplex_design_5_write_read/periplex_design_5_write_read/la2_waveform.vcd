@@ -1,0 +1,169 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 48 0 test_ppd_fifo/wdata $end
+$var wire 1 1 test_ppd_fifo/wr_en_i $end
+$var wire 1 2 test_ppd_fifo/rd_en_i $end
+$var wire 1 3 pp/ppd1/gpio_grp_en $end
+$var wire 1 4 pp/GPIO_grp/gpio_grp_en $end
+$var wire 7 5 pp/GPIO_grp/slv_sel $end
+$var wire 48 6 pp/GPIO_grp/value $end
+$var wire 1 7 pp/fifo_en $end
+$var wire 1 8 pp/w_gpio_grp_en $end
+$var wire 7 9 pp/GPIO_grp/gpio_slv_sel $end
+$var wire 7 a pp/GPIO_grp/r_slv_sel $end
+$var wire 1 b pp/GPIO_grp/interrupt $end
+$var wire 8 c pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_oe $end
+$var wire 8 d pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_out $end
+$var wire 8 e pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/g_config_data $end
+$var wire 8 f pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_oe $end
+$var wire 8 10 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_out $end
+$var wire 8 11 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_config_data $end
+$var wire 8 12 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_in $end
+$var wire 8 13 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/gpio_in $end
+$var wire 1 14 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/empty_o $end
+$var wire 1 15 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/rd_en_i $end
+$var wire 8 16 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/wdata $end
+$var wire 1 17 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/wr_en_i $end
+$var wire 3 18 test_txctrl/state $end
+$var wire 8 19 test_txctrl/tx_byte $end
+$var wire 1 1a test_ppe_fifo/rd_en_i $end
+$var wire 1 1b pp/req_arb/rd_req $end
+$var wire 2 1c pp/req_arb/i_interrupt $end
+$var wire 3 1d pp/GPIO_grp/state $end
+$var wire 2 1e pp/uart_grp/r_grp_id $end
+$var wire 3 1f pp/uart_grp/state $end
+$var wire 2 20 pp/GPIO_grp/r_grp_id $end
+$var wire 2 21 pp/GPIO_grp/r_int $end
+$var wire 1 22 pp/GPIO_grp/int_ack $end
+$var wire 48 23 test_ppe_fifo/wdata $end
+$var wire 1 24 test_ppe_fifo/wr_en_i $end
+$var wire 1 25 pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/rd_gpio_fifo_en $end
+$var wire 8 26 pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_oe $end
+$var wire 8 27 pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_out $end
+$var wire 8 28 pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/gpio_in $end
+$var wire 8 29 pp/GPIO_PERIPHERAL[1].GPIOPERIPHERAL/g_config_data $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b000000000000000000000000000000000000000000000000 0
+01
+02
+03
+04
+b0000000 5
+b000000000000000000000000000000000000000000000000 6
+07
+08
+b1111110 9
+b0000000 a
+0b
+b11111111 c
+b00000000 d
+b11111111 e
+b11111111 f
+b00000000 10
+b11111111 11
+b00000000 12
+b00000000 13
+114
+015
+b00000000 16
+017
+b000 18
+b00000000 19
+01a
+01b
+b00 1c
+b000 1d
+b00 1e
+b000 1f
+b00 20
+b00 21
+022
+b000000000000000000000000000000000000000000000000 23
+024
+025
+b11111111 26
+b00000000 27
+b00000000 28
+b11111111 29
+$end
+#1019
+b01 1c
+#1021
+11b
+#1024
+b001 1f
+#1025
+b010 1f
+#1026
+b00 1c
+b011 1f
+#1027
+b000 1f
+#1029
+17
+01b
+b000000001000000100000000000000000000000001010101 23
+124
+#1030
+07
+b000000000000000000000000000000000000000000000000 23
+024
+#1031
+b001 18
+11a
+#1032
+b010 18
+01a
+#1033
+b011 18
+#1034
+b100 18
+b01010101 19
+#2047
+b000000000000000000000000000000000000000000000000 0
+01
+02
+03
+04
+b0000000 5
+b000000000000000000000000000000000000000000000000 6
+07
+08
+b1111110 9
+b0000000 a
+0b
+b11111111 c
+b00000000 d
+b11111111 e
+b11111111 f
+b00000000 10
+b11111111 11
+b00000000 12
+b00000000 13
+114
+015
+b00000000 16
+017
+b100 18
+b01010101 19
+01a
+01b
+b00 1c
+b000 1d
+b00 1e
+b000 1f
+b00 20
+b00 21
+022
+b000000000000000000000000000000000000000000000000 23
+024
+025
+b11111111 26
+b00000000 27
+b00000000 28
+b11111111 29

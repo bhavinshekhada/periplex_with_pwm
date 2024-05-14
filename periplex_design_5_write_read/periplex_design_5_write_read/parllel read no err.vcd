@@ -1,0 +1,156 @@
+$date
+	Thu Apr 04 18:58:47 2024
+$end
+$version
+	GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+$end
+$timescale
+	1ns
+$end
+$scope module top $end
+$var wire 1 # pp/ppe1/fifo_en $end
+$var wire 3 & pp/ppe1/state[2:0] $end
+$var wire 4 , pp/uart_grp/count[3:0] $end
+$var wire 64 + pp/uart_grp/config_bus[63:0] $end
+$var wire 2 . pp/uart_grp/dt_fifo_enable[1:0] $end
+$var wire 102 - pp/uart_grp/dt_fifo_data[101:0] $end
+$var wire 2 * pp/req_arb/state[1:0] $end
+$var wire 1 1 pp/uart_grp/parallel $end
+$var wire 48 " pp/ppe1/fifo_data[47:0] $end
+$var wire 1 < test_txctrl/f_empty $end
+$var wire 1 = test_txctrl/rd_en $end
+$var wire 2 5 pp/uart_grp/rd_fifo_en[1:0] $end
+$var wire 3 6 pp/uart_grp/state[2:0] $end
+$var wire 48 3 pp/uart_grp/rd_data[47:0] $end
+$var wire 1 ' pp/req_arb/rd_req $end
+$var wire 1 ) pp/req_arb/rd_slave_id $end
+$var wire 1 % pp/ppe1/rd_dv $end
+$var wire 1 ( pp/req_arb/rd_req_ack $end
+$var wire 1 4 pp/uart_grp/rd_dv $end
+$var wire 1 7 pp/uart_grp/uart_grp_en $end
+$var wire 1 / pp/uart_grp/int_ack $end
+$var wire 48 ; test_txctrl/data[47:0] $end
+$var wire 1 0 pp/uart_grp/interrupt $end
+$var wire 48 2 pp/uart_grp/r_rd_data[47:0] $end
+$var wire 48 $ pp/ppe1/rd_data[47:0] $end
+$var wire 102 8 pp/w_dt_fifo_data[101:0] $end
+$var wire 1 : pp/w_uart_grp_en $end
+$var wire 2 9 pp/w_dt_fifo_enable[1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+b0 ;
+b0 "
+b101000000000000000000000000000001010 +
+0#
+b0 &
+0%
+01
+0)
+0=
+b0 .
+0(
+04
+0/
+1<
+07
+b0 9
+b0 6
+b0 -
+00
+b0 ,
+b0 $
+b0 5
+b0 2
+b0 3
+0:
+b0 8
+b0 *
+$end
+#45
+b1 ,
+#46
+b10 ,
+#47
+b11 ,
+#48
+b100 ,
+#49
+b101 ,
+#50
+b110 ,
+#51
+b111 ,
+#52
+b1000 ,
+#53
+b1001 ,
+#54
+b1010 ,
+#55
+b0 ,
+10
+#56
+b1 ,
+b1 *
+#57
+b10 *
+1'
+b10 ,
+#58
+b11 ,
+b1 &
+#59
+b10 &
+b100 ,
+1/
+#60
+0/
+b101 ,
+b1 6
+#61
+b10 6
+b110 ,
+b11 5
+#62
+b0 5
+b111 ,
+00
+b11 6
+#63
+b0 6
+1%
+14
+b1000001100000000000000000100001001000001 $
+b1000001100000000000000000100001001000001 2
+b1000001100000000000000000100001001000001 3
+#64
+b0 3
+0%
+b11 &
+1(
+b0 2
+b0 $
+04
+#65
+b0 &
+b0 *
+b1000001100000000000000000100001001000001 "
+1#
+0'
+0(
+#66
+b0 "
+0<
+0#
+#67
+1=
+#68
+0=
+b1000001100000000000000000100001001000001 ;
+1<
+#69
+b0 ;
+#4095

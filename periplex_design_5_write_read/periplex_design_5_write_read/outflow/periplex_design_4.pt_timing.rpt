@@ -1,0 +1,87 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.2.307
+Date: 2024-05-08 09:53
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: periplex_design_4
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+| PLL Instance | Resource | Reference Clock | Core Clock Reference Pin | FB Mode  | Core Feedback Pin | PLL Compensation Delay Max (ns) | PLL Compensation Delay Min (ns) |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+|  pll_inst2   | PLL_BR0  |     external    |                          | internal |                   |               N/A               |               N/A               |
+|   clk2_pll   | PLL_BR2  |     external    |                          | internal |                   |               N/A               |               N/A               |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+
++-------+-------------+-----------------------+
+| Clock | Period (ns) | Phase Shift (degrees) |
++-------+-------------+-----------------------+
+|  clk1 |   20.0000   |           0           |
+|  clk2 |   10.0000   |           0           |
++-------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++----------------+----------------+-----------+----------+----------+
+| Instance Name  |    Pin Name    | Parameter | Max (ns) | Min (ns) |
++----------------+----------------+-----------+----------+----------+
+|    clk1_in     |    clk1_in     |  GPIO_IN  |  1.476   |  0.738   |
+|    clk2_in     |    clk2_in     |  GPIO_IN  |  1.476   |  0.738   |
+| i_rx_serial[0] | i_rx_serial[0] |  GPIO_IN  |  1.396   |  0.698   |
+|   i_test_rx    |   i_test_rx    |  GPIO_IN  |  1.396   |  0.698   |
+|      hold      |      hold      |  GPIO_OUT |  3.829   |  1.915   |
+|   o_test_tx    |   o_test_tx    |  GPIO_OUT |  3.829   |  1.915   |
+| o_tx_serial[0] | o_tx_serial[0] |  GPIO_OUT |  4.149   |  2.075   |
+|   pwm_out[0]   |   pwm_out[0]   |  GPIO_OUT |  3.909   |  1.955   |
+|    gpio[0]     |   gpio_in[0]   |  GPIO_IN  |  1.636   |  0.818   |
+|    gpio[0]     |  gpio_out[0]   |  GPIO_OUT |  4.069   |  2.034   |
+|    gpio[0]     |   gpio_oe[0]   |  GPIO_OUT |  4.111   |  2.055   |
+|    gpio[1]     |   gpio_in[1]   |  GPIO_IN  |  1.716   |  0.858   |
+|    gpio[1]     |  gpio_out[1]   |  GPIO_OUT |  4.149   |  2.075   |
+|    gpio[1]     |   gpio_oe[1]   |  GPIO_OUT |  4.191   |  2.095   |
+|    gpio[3]     |   gpio_in[3]   |  GPIO_IN  |  1.396   |  0.698   |
+|    gpio[3]     |  gpio_out[3]   |  GPIO_OUT |  3.829   |  1.915   |
+|    gpio[3]     |   gpio_oe[3]   |  GPIO_OUT |  3.871   |  1.935   |
+|    gpio[4]     |   gpio_in[4]   |  GPIO_IN  |  1.476   |  0.738   |
+|    gpio[4]     |  gpio_out[4]   |  GPIO_OUT |  3.909   |  1.955   |
+|    gpio[4]     |   gpio_oe[4]   |  GPIO_OUT |  3.951   |  1.976   |
+|    gpio[5]     |   gpio_in[5]   |  GPIO_IN  |  1.396   |  0.698   |
+|    gpio[5]     |  gpio_out[5]   |  GPIO_OUT |  3.829   |  1.915   |
+|    gpio[5]     |   gpio_oe[5]   |  GPIO_OUT |  3.871   |  1.935   |
+|    gpio[6]     |   gpio_in[6]   |  GPIO_IN  |  1.396   |  0.698   |
+|    gpio[6]     |  gpio_out[6]   |  GPIO_OUT |  3.829   |  1.915   |
+|    gpio[6]     |   gpio_oe[6]   |  GPIO_OUT |  3.871   |  1.935   |
+|    gpio[7]     |   gpio_in[7]   |  GPIO_IN  |  1.396   |  0.698   |
+|    gpio[7]     |  gpio_out[7]   |  GPIO_OUT |  3.829   |  1.915   |
+|    gpio[7]     |   gpio_oe[7]   |  GPIO_OUT |  3.871   |  1.935   |
++----------------+----------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+-------------+-----------+----------+----------+
+| Instance Name |   Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+-------------+-----------+----------+----------+
+|      led      |     led     |  GPIO_OUT |  3.542   |  1.771   |
+|   pwm_out[1]  |  pwm_out[1] |  GPIO_OUT |  3.542   |  1.771   |
+|   pwm_out[2]  |  pwm_out[2] |  GPIO_OUT |  3.542   |  1.771   |
+|    gpio[2]    |  gpio_in[2] |  GPIO_IN  |  1.714   |  0.857   |
+|    gpio[2]    | gpio_out[2] |  GPIO_OUT |  3.542   |  1.771   |
+|    gpio[2]    |  gpio_oe[2] |  GPIO_OUT |  3.500   |  1.750   |
++---------------+-------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------

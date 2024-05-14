@@ -1,0 +1,44 @@
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 pp/fifo_read_en $end
+$var wire 1 1 pp/hold $end
+$var wire 32 2 pp/w_pwm_config_bus $end
+$var wire 51 3 pp/w_pwm_dt_fifo_data $end
+$var wire 1 4 pp/w_pwm_grp_en $end
+$var wire 1 5 pp/w_pwm_dt_fifo_enable $end
+$var wire 7 6 pp/w_slv_sel $end
+$var wire 32 7 pp/PWM_GRP/config_bus $end
+$var wire 51 8 pp/PWM_GRP/dt_fifo_data $end
+$var wire 1 9 pp/PWM_GRP/dt_fifo_enable $end
+$var wire 1 a pp/PWM_GRP/parallel $end
+$var wire 1 b pp/PWM_GRP/pwm_grp_en $end
+$var wire 48 c pp/PWM_GRP/value $end
+$var wire 7 d pp/PWM_GRP/slv_sel $end
+$var wire 32 e pp/PWM_GRP/r_config_bus $end
+$var wire 7 f pp/PWM_GRP/pwm_slv_sel $end
+$var wire 1 10 pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_pwm_fifo_enable $end
+$var wire 51 11 pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_pwm_fifo_data $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x0
+x1
+bx 2
+bx 3
+x4
+x5
+bx 6
+bx 7
+bx 8
+x9
+xa
+xb
+bx c
+bx d
+bx e
+bx f
+x10
+bx 11
+$end

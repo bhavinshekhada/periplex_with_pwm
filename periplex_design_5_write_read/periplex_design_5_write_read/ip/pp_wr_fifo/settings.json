@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "pp_wr_fifo",
+        "--base_path",
+        "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "1",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "9",
+        "DATA_WIDTH": "48",
+        "MODE": "\"STANDARD\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\pp_wr_fifo_tmpl.vhd",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\pp_wr_fifo_tmpl.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\pp_wr_fifo.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\pp_wr_fifo_define.vh"
+        ],
+        "external_example_example": [
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\fifo_demo_top.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\pp_wr_fifo.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\pp_wr_fifo_define.vh",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\fifo_demo.peri.xml",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\fifo_demo_top.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\pp_wr_fifo.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\pp_wr_fifo_define.vh",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\fifo_tb.sv",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\xrun.sh",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\msim.sh",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\flist",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\modelsim.do",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\pp_wr_fifo.v",
+            "C:\\Users\\Dell\\Downloads\\periplex_design_5_write_read\\periplex_design_5_write_read\\ip\\pp_wr_fifo\\Testbench\\pp_wr_fifo_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-04-09T08:48:00.823499"
+}

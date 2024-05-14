@@ -1,0 +1,45 @@
+
+# Efinity Interface Configuration
+# Version: 2023.2.307
+# Date: 2024-05-08 09:53
+
+# Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 338, 321, 1, __bypass__, clk1
+optional input, 338, 9, 1, __bypass__, clk1_in
+input, 338, 323, 1, __bypass__, clk2
+optional input, 338, 5, 1, __bypass__, clk2_in
+input, 338, 380, 1, __bypass__, gpio_in[0]
+input, 338, 378, 1, __bypass__, gpio_in[1]
+input, 333, 643, 1, __bypass__, gpio_in[2]
+input, 0, 128, 1, __bypass__, gpio_in[3]
+input, 338, 637, 1, __bypass__, gpio_in[4]
+input, 0, 109, 1, __bypass__, gpio_in[5]
+input, 0, 123, 1, __bypass__, gpio_in[6]
+input, 0, 112, 1, __bypass__, gpio_in[7]
+output, 338, 379, 2, __bypass__, gpio_oe[0]
+output, 338, 377, 2, __bypass__, gpio_oe[1]
+output, 335, 643, 0, __bypass__, gpio_oe[2]
+output, 0, 129, 0, __bypass__, gpio_oe[3]
+output, 338, 636, 2, __bypass__, gpio_oe[4]
+output, 0, 110, 0, __bypass__, gpio_oe[5]
+output, 0, 124, 0, __bypass__, gpio_oe[6]
+output, 0, 113, 0, __bypass__, gpio_oe[7]
+output, 338, 380, 0, __bypass__, gpio_out[0]
+output, 338, 378, 0, __bypass__, gpio_out[1]
+output, 333, 643, 0, __bypass__, gpio_out[2]
+output, 0, 128, 0, __bypass__, gpio_out[3]
+output, 338, 637, 0, __bypass__, gpio_out[4]
+output, 0, 109, 0, __bypass__, gpio_out[5]
+output, 0, 123, 0, __bypass__, gpio_out[6]
+output, 0, 112, 0, __bypass__, gpio_out[7]
+output, 0, 306, 0, __bypass__, hold
+input, 0, 310, 1, __bypass__, i_rx_serial[0]
+input, 0, 283, 1, __bypass__, i_test_rx
+output, 327, 643, 0, __bypass__, led
+output, 0, 274, 0, __bypass__, o_test_tx
+output, 338, 370, 0, __bypass__, o_tx_serial[0]
+output, 338, 7, 0, __bypass__, pwm_out[0]
+output, 322, 643, 0, __bypass__, pwm_out[1]
+output, 323, 643, 0, __bypass__, pwm_out[2]

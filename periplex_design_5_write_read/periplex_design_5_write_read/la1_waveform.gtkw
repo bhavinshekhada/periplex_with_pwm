@@ -1,0 +1,47 @@
+[dumpfile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la1_waveform.vcd"
+[dumpfile_mtime] "Fri Apr 26 09:23:39 2024"
+[dumpfile_size] 3629
+[savefile] "C:\Users\Dell\Downloads\periplex_design_5_write_read\periplex_design_5_write_read\la1_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 1024 3072 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\pp/UART_PERIPHERAL[0].uart/rd_fifo_en
+top.\pp/UART_PERIPHERAL[0].uart/Tx_Active
+top.\pp/UART_PERIPHERAL[0].uart/Tx_Done
+top.\pp/UART_PERIPHERAL[0].uart/Tx_Serial
+top.\pp/UART_PERIPHERAL[0].uart/uart_config_data[31:0]
+top.\pp/UART_PERIPHERAL[0].uart/uart_dt_fifo_data[50:0]
+top.\pp/UART_PERIPHERAL[0].uart/uart_dt_fifo_enable
+top.\pp/uart_grp/cfg
+top.\pp/uart_grp/count[3:0]
+top.\pp/uart_grp/flag_frame_1
+top.\pp/uart_grp/flag_int_done
+top.\pp/uart_grp/flag_rd[1:0]
+top.\pp/uart_grp/interrupt
+top.\pp/uart_grp/int_ack
+top.\pp/uart_grp/parallel
+top.\pp/uart_grp/rd_fifo_en[1:0]
+top.\pp/uart_grp/r_config_bus[63:0]
+top.\pp/uart_grp/r_dt_fifo_data[101:0]
+top.\pp/uart_grp/r_dt_fifo_enable[1:0]
+top.\pp/uart_grp/r_grp_id[1:0]
+top.\pp/uart_grp/r_int[1:0]
+top.\pp/uart_grp/r_rd_fifo_en[1:0]
+top.\pp/uart_grp/r_slv_sel[6:0]
+top.\pp/uart_grp/r_strobe[6:0]
+top.\pp/uart_grp/slv_sel[6:0]
+top.\pp/uart_grp/state[2:0]
+top.\pp/uart_grp/str_len[6:0]
+top.\pp/uart_grp/uart_config_bus[63:0]
+top.\pp/uart_grp/uart_dt_fifo_data[101:0]
+top.\pp/uart_grp/uart_dt_fifo_enable[1:0]
+top.\pp/uart_grp/uart_grp_en
+top.\pp/uart_grp/value[47:0]
+top.\pp/UART_PERIPHERAL[0].uart/dt_module/dt_fifo_51/wdata[50:0]
+top.\pp/UART_PERIPHERAL[0].uart/dt_module/dt_fifo_51/wr_en_i
+top.\pp/UART_PERIPHERAL[0].uart/dt_module/fifo_data[50:0]
+top.\pp/UART_PERIPHERAL[0].uart/dt_module/fifo_enable

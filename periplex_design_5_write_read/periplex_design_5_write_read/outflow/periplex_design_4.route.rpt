@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Wed May 08 09:55:10 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: periplex_design_4
+Elapsed time for routing: 0 hours 1 minutes 43 seconds
+Elapsed time for entire flow: 0 hours 5 minutes 3 seconds

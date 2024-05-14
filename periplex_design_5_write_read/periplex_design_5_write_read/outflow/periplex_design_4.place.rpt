@@ -1,0 +1,88 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Wed May 08 09:53:13 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: periplex_design_4
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 12 / 1076 (1.12%)
+Outputs: 23 / 1566 (1.47%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 11346 / 112128 (10.12%)
+	LE: LUTs/Adders: 9786 / 112128 (8.73%)
+	LE: Registers: 4269 / 107520 (3.97%)
+Memory Blocks: 32 / 1056 (3.03%)
+Multipliers: 12 / 320 (3.75%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Block Information (begin) ----------
+
++-----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|         NAME          | A_REG | B_REG | O_REG | RSTA_SYNC | RSTA_VALUE | RSTB_SYNC | RSTB_VALUE | RSTO_SYNC | RSTO_VALUE |
++-----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+| pp/uart_grp/mult_1415 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/uart_grp/mult_685  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/GPIO_grp/mult_1416 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+|  pp/GPIO_grp/mult_11  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/uart_grp/mult_2145 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+|  pp/uart_grp/mult_10  | true  | false | false |   true    |   false    |   false   |   false    |   false   |   false    |
+| pp/PWM_GRP/mult_5956  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/PWM_GRP/mult_3794  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/PWM_GRP/mult_1630  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/GPIO_grp/mult_686  | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+|  pp/PWM_GRP/mult_15   | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| pp/GPIO_grp/mult_2146 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
++-----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+
+----------- DSP Block Information (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                               NAME                                               | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                       test_ppd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                        | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                      test_ppd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                      test_ppd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                       test_ppd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+| pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$2  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1 | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|     pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/xefx_fifo_ram/ram      | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|     pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram      | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+| pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$2  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1 | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+| pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/xefx_fifo_ram/ram  | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+| pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram  | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$2   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|   pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ram/ram    | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$2   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|   pp/PWM_PERIPHERAL[1].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ram/ram    | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$2   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|   pp/PWM_PERIPHERAL[2].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/xefx_fifo_ram/ram    | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|                       test_ppe_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d1                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                       test_ppe_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                        | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                      test_ppe_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                      test_ppe_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                       test_ppe_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                       test_ppd_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d1                       | SDP  |     10     |     10      |  READ_FIRST  |   false    |
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 49 seconds

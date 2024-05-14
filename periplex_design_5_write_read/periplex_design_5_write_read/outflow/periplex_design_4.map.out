@@ -1,0 +1,486 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307
+[EFX-0000 INFO] Compiled: Dec 15 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/periplex_design_4.xml"
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/periplex_design_4.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uartpacketizer.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.vh' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_tx.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_peripheral.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_peripheral.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_peripheral.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_peripheral.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(10): WARNING: parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(11): WARNING: parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(12): WARNING: parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(13): WARNING: parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(14): WARNING: parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_rx.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v' (VERI-2320)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(89): WARNING: parameter 'TOTAL_UART' becomes localparam in 'encoder' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(90): WARNING: parameter 'TOTAL_GPIO_CTRLS' becomes localparam in 'encoder' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(92): WARNING: parameter 'UART_TOTAL_GRP' becomes localparam in 'encoder' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(93): WARNING: parameter 'GPIO_TOTAL_GRP' becomes localparam in 'encoder' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(94): WARNING: parameter 'TOTAL_GRP' becomes localparam in 'encoder' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_encoder.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_tx_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(12): WARNING: parameter 's_IDLE' becomes localparam in 'test_uart_tx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(13): WARNING: parameter 's_TX_START_BIT' becomes localparam in 'test_uart_tx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(14): WARNING: parameter 's_TX_DATA_BITS' becomes localparam in 'test_uart_tx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(15): WARNING: parameter 's_TX_STOP_BIT' becomes localparam in 'test_uart_tx' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(16): WARNING: parameter 's_CLEANUP' becomes localparam in 'test_uart_tx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v' (VERI-2320)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(22): WARNING: parameter 'ASYNC_FIFO_DEPTH' becomes localparam in 'GPIO_PERIPHERAL' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(23): WARNING: parameter 'UART_DATA_WIDTH' becomes localparam in 'GPIO_PERIPHERAL' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(24): WARNING: parameter 'UART_FIFO_DEPTH' becomes localparam in 'GPIO_PERIPHERAL' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v' (VERI-2320)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(16): WARNING: parameter 'ASYNC_FIFO_DEPTH' becomes localparam in 'PWM_peripheral' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(17): WARNING: parameter 'UART_DATA_WIDTH' becomes localparam in 'PWM_peripheral' with formal parameter declaration list (VERI-1199)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(18): WARNING: parameter 'UART_FIFO_DEPTH' becomes localparam in 'PWM_peripheral' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v' (VERI-1482)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v(1): INFO: analyzing included file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design/periplex.vh' (VERI-1328)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v(1): INFO: back to file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_phy.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_generator.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v' (VERI-1482)
+INFO: Analysis took 0.34429 seconds.
+INFO: 	Analysis took 0 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.908 MB, end = 57.444 MB, delta = 1.536 MB
+INFO: 	Analysis peak virtual memory usage = 57.444 MB
+INFO: Analysis resident set memory usage: begin = 59.124 MB, end = 61.908 MB, delta = 2.784 MB
+INFO: 	Analysis peak resident set memory usage = 61.908 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(86): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(86): WARNING: port 'a_rst_i' is not connected on this instance (VERI-2435)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(116): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(116): WARNING: port 'a_rst_i' is not connected on this instance (VERI-2435)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(3): INFO: compiling module 'test_module' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(1): INFO: compiling module 'test_uart_rx' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(53): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(60): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(68): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(81): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(101): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_rx.v(21): WARNING: net 'r_Rx_Byte[8]' does not have a driver (VDB-1002)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uartpacketizer.v(1): INFO: compiling module 'uart_packetizer' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uartpacketizer.v(35): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uartpacketizer.v(44): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(105): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(49): INFO: compiling module 'pp_wr_fifo' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(386): INFO: compiling module 'efx_fifo_top_b4d694ab8de34d2793d2b2bb63f36b9a_renamed_due_excessive_length_1' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(678): INFO: compiling module 'efx_fifo_ram_b4d694ab8de34d2793d2b2bb63f36b9a(WDATA_WIDTH=48,RDATA_WIDTH=48,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(715): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(996): INFO: compiling module 'efx_fifo_ctl_b4d694ab8de34d2793d2b2bb63f36b9a(PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(1272): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(1273): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(101): WARNING: actual bit length 9 differs from formal bit length 10 for port 'datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v(87): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(85): WARNING: actual bit length 8 differs from formal bit length 9 for port 'datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v(124): WARNING: port 'i2c_grp_en' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\periplex.v(3): INFO: compiling module 'periplex' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v(3): INFO: compiling module 'pp_decoder' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v(119): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_decoder.v(128): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(3): INFO: compiling module 'uart_grp_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(87): WARNING: expression size 7 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(129): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(84): INFO: compiling module 'encoder' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(154): WARNING: actual bit length 1 differs from formal bit length 2 for port 'in' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_grp_ctrl.v(155): WARNING: actual bit length 1 differs from formal bit length 2 for port 'out' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(3): INFO: compiling module 'gpio_grp_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(62): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(92): WARNING: expression size 7 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(134): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(159): WARNING: actual bit length 1 differs from formal bit length 2 for port 'in' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v(160): WARNING: actual bit length 1 differs from formal bit length 2 for port 'out' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v(3): INFO: compiling module 'pwm_grp_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v(46): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v(75): WARNING: expression size 7 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_peripheral.v(3): INFO: compiling module 'uart_peripheral(UART_FIFO_DEPTH=16)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(32): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(32): WARNING: port 'a_rst_i' is not connected on this instance (VERI-2435)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(3): INFO: compiling module 'dt_top' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(49): INFO: compiling module 'dt_fifo' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(390): INFO: compiling module 'efx_fifo_top_378d79e1dcb040219a2787531019ea5f_renamed_due_excessive_length_2' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(682): INFO: compiling module 'efx_fifo_ram_378d79e1dcb040219a2787531019ea5f(WR_DEPTH=256,RD_DEPTH=256,WDATA_WIDTH=51,RDATA_WIDTH=51,WADDR_WIDTH=8,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(1000): INFO: compiling module 'efx_fifo_ctl_378d79e1dcb040219a2787531019ea5f(SYNC_CLK=0,WR_DEPTH=256,WADDR_WIDTH=8,RADDR_WIDTH=8,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(1276): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(1277): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(301): INFO: compiling module 'efx_fifo_bin2gray_378d79e1dcb040219a2787531019ea5f(WIDTH=9)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(130): INFO: compiling module 'efx_fifo_datasync_378d79e1dcb040219a2787531019ea5f(STAGE=2,WIDTH=9)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=9)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=8)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=7)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=6)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=4)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=3)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=2)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(104): WARNING: actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(107): WARNING: actual bit length 8 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_ctrl.v(1): INFO: compiling module 'dt_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_ctrl.v(57): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v(24): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(50): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(50): WARNING: port 'a_rst_i' is not connected on this instance (VERI-2435)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(92): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(92): WARNING: port 'a_rst_i' is not connected on this instance (VERI-2435)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(1): INFO: compiling module 'uart_phy(UART_FIFO_DEPTH=16)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(49): INFO: compiling module 'uart_fifo' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(390): INFO: compiling module 'efx_fifo_top_64aa9fb1cea442bcb9c67251c1cac8c6_renamed_due_excessive_length_3' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(682): INFO: compiling module 'efx_fifo_ram_64aa9fb1cea442bcb9c67251c1cac8c6(OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(1000): INFO: compiling module 'efx_fifo_ctl_64aa9fb1cea442bcb9c67251c1cac8c6(SYNC_CLK=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(1276): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(1277): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(301): INFO: compiling module 'efx_fifo_bin2gray_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(130): INFO: compiling module 'efx_fifo_datasync_64aa9fb1cea442bcb9c67251c1cac8c6(STAGE=2,WIDTH=10)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=9)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=8)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=7)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=6)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=4)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=3)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=2)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(104): WARNING: actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(107): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_ctrl.v(1): INFO: compiling module 'uart_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_tx.v(1): INFO: compiling module 'uart_tx' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_tx.v(76): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_rx.v(1): INFO: compiling module 'uart_rx' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_rx.v(79): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_rx.v(112): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_rx.v(16): WARNING: net 'r_Rx_Byte[8]' does not have a driver (VDB-1002)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(42): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\uart_phy.v(84): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_PERIPHERAL.v(3): INFO: compiling module 'GPIO_PERIPHERAL' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v(41): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v(69): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v(3): INFO: compiling module 'GPIO_phy' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v(1): INFO: compiling module 'gpio_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_ctrl.v(118): WARNING: expression size 32 truncated to fit in target size 8 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v(33): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_phy.v(61): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_peripheral.v(3): INFO: compiling module 'PWM_peripheral' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_phy.v(30): WARNING: port 'almost_full_o' remains unconnected for this instance (VERI-1927)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_phy.v(3): INFO: compiling module 'PWM_phy' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_generator.v(1): INFO: compiling module 'pwm_generator' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_generator.v(46): WARNING: expression size 72 truncated to fit in target size 64 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_generator.v(48): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\PWM_phy.v(21): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v(3): INFO: compiling module 'rd_req_arb' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_encoder.v(1): INFO: compiling module 'pp_encoder' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pp_encoder.v(47): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(115): WARNING: actual bit length 8 differs from formal bit length 9 for port 'datacount_o' (VERI-1330)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_tx_ctrl.v(1): INFO: compiling module 'test_tx_ctrl' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_tx_ctrl.v(64): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(1): INFO: compiling module 'test_uart_tx(CLKS_PER_BIT=435)' (VERI-1018)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(49): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(62): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(69): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_uart_tx.v(84): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(76): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_module.v(107): WARNING: input port 'a_rst_i' remains unconnected for this instance (VDB-1053)
+INFO: Elaboration took 0.647235 seconds.
+INFO: 	Elaboration took 0.34375 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 57.444 MB, end = 127.432 MB, delta = 69.988 MB
+INFO: 	Elaboration peak virtual memory usage = 127.432 MB
+INFO: Elaboration resident set memory usage: begin = 61.92 MB, end = 130.192 MB, delta = 68.272 MB
+INFO: 	Elaboration peak resident set memory usage = 130.192 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0201528 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 129.144 MB, end = 129.144 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 130.72 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 132.088 MB, end = 132.104 MB, delta = 0.016 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 133.572 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:715)
+[EFX-0256 WARNING] The primary output port 'led' wire 'led' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[9]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[8]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[7]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[6]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[5]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[4]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[3]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[2]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[1]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_int_dcount[0]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[9]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[8]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[7]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[6]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[5]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[4]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[3]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[2]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[1]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] Removing redundant signal : raddr_dcount[0]. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:1050)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.wr_clk_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.rd_clk_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:87)
+[EFX-0266 WARNING] Module Instance 'enc' input pin tied to constant (in[1]=0).
+[EFX-0266 WARNING] Module Instance 'enc' input pin tied to constant (in[1]=0).
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v:719)
+[EFX-0031 INFO] 'select_9' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_ctrl.v:55)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v:719)
+[EFX-0031 INFO] 'select_9' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\test_tx_ctrl.v:53)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "test_module"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_packetizer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_packetizer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b4d694ab8de34d2793d2b2bb63f36b9a(WDATA_WIDTH=48,RDATA_WIDTH=48,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b4d694ab8de34d2793d2b2bb63f36b9a(WDATA_WIDTH=48,RDATA_WIDTH=48,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b4d694ab8de34d2793d2b2bb63f36b9a(PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b4d694ab8de34d2793d2b2bb63f36b9a(PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b4d694ab8de34d2793d2b2bb63f36b9a_renamed_due_excessive_length_1" begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v:89)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v:89)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v:89)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dt_fifo_51.a_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\dt_top.v:24)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v:89)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v:89)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b4d694ab8de34d2793d2b2bb63f36b9a_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_wr_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_wr_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_decoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_decoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_grp_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_grp_ctrl" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gpio_grp_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gpio_grp_ctrl" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm_grp_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm_grp_ctrl" end (Real time : 5s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_378d79e1dcb040219a2787531019ea5f(WR_DEPTH=256,RD_DEPTH=256,WDATA_WIDTH=51,RDATA_WIDTH=51,WADDR_WIDTH=8,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_378d79e1dcb040219a2787531019ea5f(WR_DEPTH=256,RD_DEPTH=256,WDATA_WIDTH=51,RDATA_WIDTH=51,WADDR_WIDTH=8,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_378d79e1dcb040219a2787531019ea5f(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_378d79e1dcb040219a2787531019ea5f(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_378d79e1dcb040219a2787531019ea5f(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_378d79e1dcb040219a2787531019ea5f(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_378d79e1dcb040219a2787531019ea5f(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_378d79e1dcb040219a2787531019ea5f(SYNC_CLK=0,WR_DEPTH=256,WADDR_WIDTH=8,RADDR_WIDTH=8,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_378d79e1dcb040219a2787531019ea5f(SYNC_CLK=0,WR_DEPTH=256,WADDR_WIDTH=8,RADDR_WIDTH=8,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_378d79e1dcb040219a2787531019ea5f_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_378d79e1dcb040219a2787531019ea5f_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dt_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_64aa9fb1cea442bcb9c67251c1cac8c6(OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_64aa9fb1cea442bcb9c67251c1cac8c6(OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_64aa9fb1cea442bcb9c67251c1cac8c6(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_64aa9fb1cea442bcb9c67251c1cac8c6(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_64aa9fb1cea442bcb9c67251c1cac8c6(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_64aa9fb1cea442bcb9c67251c1cac8c6(SYNC_CLK=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_64aa9fb1cea442bcb9c67251c1cac8c6(SYNC_CLK=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_64aa9fb1cea442bcb9c67251c1cac8c6_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_64aa9fb1cea442bcb9c67251c1cac8c6_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_phy(UART_FIFO_DEPTH=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_phy(UART_FIFO_DEPTH=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_peripheral(UART_FIFO_DEPTH=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_peripheral(UART_FIFO_DEPTH=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gpio_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gpio_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPIO_phy" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPIO_phy" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPIO_PERIPHERAL" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPIO_PERIPHERAL" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_phy" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_phy" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_peripheral" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_peripheral" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rd_req_arb" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rd_req_arb" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_encoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pp_encoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "periplex" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "periplex" end (Real time : 3s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_tx_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_tx_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_uart_tx(CLKS_PER_BIT=435)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_uart_tx(CLKS_PER_BIT=435)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_module" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 501 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_module" end (Real time : 5s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk1' with 2457 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk2' with 825 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 13975 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 18s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 9062, ed: 30110, lv: 8, pw: 10772.59
+[EFX-0000 INFO] ... LUT mapping end (Real time : 263s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk1' with 2295 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk2' with 825 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 16s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.280008 seconds.
+INFO: 	VDB Netlist Checker took 0.15625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 295.94 MB, end = 295.94 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 356.724 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 295.248 MB, end = 295.3 MB, delta = 0.052 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 355.828 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'test_module' to Verilog file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	603
+[EFX-0000 INFO] EFX_LUT4        : 	9181
+[EFX-0000 INFO] EFX_MULT        : 	12
+[EFX-0000 INFO] EFX_FF          : 	4269
+[EFX-0000 INFO] EFX_RAM_5K      : 	32
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

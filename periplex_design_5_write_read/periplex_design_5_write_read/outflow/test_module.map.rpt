@@ -1,0 +1,819 @@
+Efinity Synthesis report for project test_module
+Version: 2023.2.307
+Generated at: May 04, 2024 17:24:40
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : test_module
+
+### ### File List (begin) ### ### ###
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\pp_wr_fifo\pp_wr_fifo.v:715)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\dt_fifo\dt_fifo.v:719)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\ip\uart_fifo\uart_fifo.v:719)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 307
+Total number of FFs with enable signals: 5213
+CE signal <test_uartrx/n514>, number of controlling flip flops: 1
+CE signal <ceg_net60>, number of controlling flip flops: 11
+CE signal <ceg_net1203>, number of controlling flip flops: 1
+CE signal <ceg_net1013>, number of controlling flip flops: 3
+CE signal <test_uartrx/n497>, number of controlling flip flops: 1
+CE signal <test_uartrx/n499>, number of controlling flip flops: 1
+CE signal <test_uartrx/n501>, number of controlling flip flops: 1
+CE signal <test_uartrx/n503>, number of controlling flip flops: 1
+CE signal <test_uartrx/n505>, number of controlling flip flops: 1
+CE signal <test_uartrx/n507>, number of controlling flip flops: 1
+CE signal <test_uartrx/n511>, number of controlling flip flops: 1
+CE signal <ceg_net1015>, number of controlling flip flops: 2
+CE signal <test_uartpacket/state[0]>, number of controlling flip flops: 49
+CE signal <ceg_net106>, number of controlling flip flops: 3
+CE signal <ceg_net220>, number of controlling flip flops: 48
+CE signal <test_ppd_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <test_ppd_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <hold>, number of controlling flip flops: 9
+CE signal <ceg_net1073>, number of controlling flip flops: 1
+CE signal <ceg_net1081>, number of controlling flip flops: 1
+CE signal <ceg_net1086>, number of controlling flip flops: 1
+CE signal <ceg_net1123>, number of controlling flip flops: 1
+CE signal <ceg_net1207>, number of controlling flip flops: 1
+CE signal <ceg_net1106>, number of controlling flip flops: 1
+CE signal <w_f_empty>, number of controlling flip flops: 1
+CE signal <ceg_net1128>, number of controlling flip flops: 1
+CE signal <pp/ppd1/n145>, number of controlling flip flops: 5
+CE signal <pp/w_cfg>, number of controlling flip flops: 802
+CE signal <pp/uart_grp/n10056>, number of controlling flip flops: 32
+CE signal <pp/w_uart_rd_f_empty[0]>, number of controlling flip flops: 4
+CE signal <pp/uart_grp/n9007>, number of controlling flip flops: 1
+CE signal <pp/uart_grp/equal_4067/n5>, number of controlling flip flops: 1
+CE signal <pp/GPIO_grp/n10127>, number of controlling flip flops: 24
+CE signal <pp/w_gpio_rd_f_empty[0]>, number of controlling flip flops: 4
+CE signal <pp/GPIO_grp/n9016>, number of controlling flip flops: 1
+CE signal <pp/GPIO_grp/equal_4068/n5>, number of controlling flip flops: 2
+CE signal <pp/PWM_GRP/n9463>, number of controlling flip flops: 32
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 9
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_ctrl/n446>, number of controlling flip flops: 12
+CE signal <ceg_net566>, number of controlling flip flops: 2
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_ctrl/n460>, number of controlling flip flops: 51
+CE signal <ceg_net570>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <ceg_net583>, number of controlling flip flops: 9
+CE signal <ceg_net581>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uarttx/r_SM_Main[2]>, number of controlling flip flops: 33
+CE signal <ceg_net1209>, number of controlling flip flops: 1
+CE signal <ceg_net1138>, number of controlling flip flops: 3
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uarttx/n1067>, number of controlling flip flops: 32
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uarttx/n1483>, number of controlling flip flops: 8
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1479>, number of controlling flip flops: 1
+CE signal <ceg_net807>, number of controlling flip flops: 32
+CE signal <ceg_net1211>, number of controlling flip flops: 1
+CE signal <ceg_net1146>, number of controlling flip flops: 3
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1146>, number of controlling flip flops: 32
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1456>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1459>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1462>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1465>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1468>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1473>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1476>, number of controlling flip flops: 1
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 9
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_ctrl/n446>, number of controlling flip flops: 12
+CE signal <ceg_net824>, number of controlling flip flops: 2
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_ctrl/n460>, number of controlling flip flops: 51
+CE signal <ceg_net828>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/equal_39/n5>, number of controlling flip flops: 8
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/equal_40/n5>, number of controlling flip flops: 8
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n794>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n792>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n790>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n788>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n786>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n784>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n782>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/n780>, number of controlling flip flops: 1
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 9
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_ctrl/n446>, number of controlling flip flops: 12
+CE signal <ceg_net838>, number of controlling flip flops: 2
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_ctrl/n460>, number of controlling flip flops: 51
+CE signal <ceg_net842>, number of controlling flip flops: 1
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <ceg_net873>, number of controlling flip flops: 3
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/n1349>, number of controlling flip flops: 64
+CE signal <ceg_net856>, number of controlling flip flops: 1
+CE signal <ceg_net935>, number of controlling flip flops: 32
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/n303>, number of controlling flip flops: 32
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/n1208>, number of controlling flip flops: 64
+CE signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/n853>, number of controlling flip flops: 1
+CE signal <ceg_net1149>, number of controlling flip flops: 1
+CE signal <ceg_net940>, number of controlling flip flops: 2
+CE signal <n1645>, number of controlling flip flops: 2
+CE signal <pp/ppe1/n448>, number of controlling flip flops: 1
+CE signal <pp/ppe1/n604>, number of controlling flip flops: 11
+CE signal <test_ppe_fifo/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <test_ppe_fifo/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 10
+CE signal <ceg_net1168>, number of controlling flip flops: 4
+CE signal <ceg_net950>, number of controlling flip flops: 3
+CE signal <ceg_net1189>, number of controlling flip flops: 8
+CE signal <test_txctrl/n727>, number of controlling flip flops: 48
+CE signal <ceg_net957>, number of controlling flip flops: 1
+CE signal <ceg_net1159>, number of controlling flip flops: 1
+CE signal <test_uarttx/r_SM_Main[2]>, number of controlling flip flops: 10
+CE signal <ceg_net1214>, number of controlling flip flops: 1
+CE signal <ceg_net1201>, number of controlling flip flops: 3
+CE signal <test_uarttx/n501>, number of controlling flip flops: 8
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n1262>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n31569>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n30707>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n30771>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n30835>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2121>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 26
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net26>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net14>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2974>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3385>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3809>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4220>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4644>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5055>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5479>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5890>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6363>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6378>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n6576>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n6774>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6789>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n6987>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n7205>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7616>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8040>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8451>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8875>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n9286>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n9759>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n9774>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n9972>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n10170>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n10185>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n10383>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n10650>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n10665>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n10863>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n11061>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n11076>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n11274>, number of controlling flip flops: 7
+CE signal <edb_top_inst/la0/n11492>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n11903>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n12327>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n12738>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n13162>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n13573>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n13997>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n14408>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15189>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15204>, number of controlling flip flops: 51
+CE signal <edb_top_inst/la0/n15402>, number of controlling flip flops: 51
+CE signal <edb_top_inst/la0/n15600>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15615>, number of controlling flip flops: 51
+CE signal <edb_top_inst/la0/n15813>, number of controlling flip flops: 51
+CE signal <edb_top_inst/la0/n16299>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n16314>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n16512>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n16710>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n16725>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n16923>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n17166>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n17577>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n18015>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n18030>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n18228>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n18426>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n18441>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n18639>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n18852>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n19263>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n20135>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n20150>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n20348>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n20546>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n20561>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n20759>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n21062>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n21077>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n21275>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n21473>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n21488>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n21686>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n31700>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/ceg_net221>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/la_biu_inst/n1756>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/la_biu_inst/n527>, number of controlling flip flops: 14
+CE signal <edb_top_inst/la0/la_biu_inst/n1890>, number of controlling flip flops: 65
+CE signal <edb_top_inst/ceg_net345>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net348>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_pop>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net355>, number of controlling flip flops: 24
+CE signal <edb_top_inst/ceg_net465>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n1096>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la1/n7389>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n1955>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la1/addr_ct_en>, number of controlling flip flops: 26
+CE signal <edb_top_inst/la1/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net486>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la1/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net474>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n2808>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n3219>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n3643>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n4054>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la1/n7435>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la1/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la1/n6892>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n6956>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la1/n7020>, number of controlling flip flops: 64
+CE signal <edb_top_inst/ceg_net681>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la1/la_biu_inst/n1128>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la1/la_biu_inst/n342>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la1/la_biu_inst/axi_fsm_state[1]>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net808>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la1/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la1/la_biu_inst/fifo_pop>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la1/la_biu_inst/fifo_push>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net815>, number of controlling flip flops: 24
+CE signal <edb_top_inst/ceg_net925>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la2/n1103>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la2/n7519>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la2/n1962>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la2/addr_ct_en>, number of controlling flip flops: 26
+CE signal <edb_top_inst/la2/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net946>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la2/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net934>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la2/n2871>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la2/n2886>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la2/n3084>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la2/n3282>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la2/n3297>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la2/n3495>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la2/n3714>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la2/n4125>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la2/n7565>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la2/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la2/n7020>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la2/n7084>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la2/n7148>, number of controlling flip flops: 64
+CE signal <edb_top_inst/ceg_net1141>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la2/la_biu_inst/n349>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la2/la_biu_inst/n1245>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net1265>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net1268>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la2/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la2/la_biu_inst/fifo_pop>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la2/la_biu_inst/fifo_push>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net1275>, number of controlling flip flops: 24
+CE signal <edb_top_inst/ceg_net1385>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la3/n1103>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la3/n6397>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la3/n1962>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la3/addr_ct_en>, number of controlling flip flops: 26
+CE signal <edb_top_inst/la3/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net1406>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la3/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net1394>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la3/n2871>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la3/n2886>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la3/n3084>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la3/n3282>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la3/n3297>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la3/n3495>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la3/n6439>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la3/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la3/n5903>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la3/n5967>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la3/n6031>, number of controlling flip flops: 64
+CE signal <edb_top_inst/ceg_net1601>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la3/la_biu_inst/n1140>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la3/la_biu_inst/n348>, number of controlling flip flops: 12
+CE signal <edb_top_inst/la3/la_biu_inst/n1243>, number of controlling flip flops: 10
+CE signal <edb_top_inst/ceg_net1725>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net1728>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la3/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la3/la_biu_inst/fifo_pop>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la3/la_biu_inst/fifo_push>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net1735>, number of controlling flip flops: 24
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+CE signal <edb_top_inst/la2/la_biu_inst/n1142>, number of controlling flip flops: 13
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 52
+Total number of FFs with set/reset signals: 4300
+SR signal <test_uartrx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <test_uartrx/n493>, number of controlling flip flops: 1
+SR signal <test_ppd_fifo/rst_busy>, number of controlling flip flops: 20
+SR signal <pp/ppd1/n7>, number of controlling flip flops: 1
+SR signal <pp/uart_grp/flag_int_done>, number of controlling flip flops: 1
+SR signal <pp/GPIO_grp/flag_int_done>, number of controlling flip flops: 1
+SR signal <pp/PWM_GRP/n8455>, number of controlling flip flops: 425
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uarttx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uarttx/n1465>, number of controlling flip flops: 1
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uartrx/n1439>, number of controlling flip flops: 1
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/UART_PERIPHERAL[0].uartperipheral/uart/uart_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/dt_module/dt_fifo_51/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 27
+SR signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_wr_fifo/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 30
+SR signal <pp/PWM_PERIPHERAL[0].PWMPERIPHERAL/PWM_phy_dut/pwm_generator_dut/n303>, number of controlling flip flops: 1
+SR signal <test_ppe_fifo/rst_busy>, number of controlling flip flops: 20
+SR signal <test_uarttx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <test_uarttx/n483>, number of controlling flip flops: 1
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 2966
+SR signal <edb_top_inst/la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 78
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n1432>, number of controlling flip flops: 34
+SR signal <edb_top_inst/la0/la_biu_inst/n2796>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la1/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la1/la_resetn>, number of controlling flip flops: 17
+SR signal <edb_top_inst/la1/la_biu_inst/fifo_rstn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la1/la_biu_inst/fifo_with_read_inst/n692>, number of controlling flip flops: 34
+SR signal <edb_top_inst/la1/la_biu_inst/n1973>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la2/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la2/la_resetn>, number of controlling flip flops: 33
+SR signal <edb_top_inst/la2/la_biu_inst/fifo_rstn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la2/la_biu_inst/fifo_with_read_inst/n720>, number of controlling flip flops: 34
+SR signal <edb_top_inst/la2/la_biu_inst/n1987>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la3/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la3/la_resetn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la3/la_biu_inst/fifo_rstn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la3/la_biu_inst/fifo_with_read_inst/n716>, number of controlling flip flops: 34
+SR signal <edb_top_inst/la3/la_biu_inst/n1985>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v (72)" removed instance : pp/req_arb/i20
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\rd_req_arb.v (72)" representative instance : pp/req_arb/dff_21/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[43]~FF_brt_546_brt_1490
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[39]~FF_brt_530_brt_1465
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[31]~FF_brt_501_brt_1413
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[29]~FF_brt_493_brt_1399
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[27]~FF_brt_487_brt_1380
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[18]~FF_brt_449_brt_1304
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[19]~FF_brt_453_brt_1314
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[17]~FF_brt_447_brt_1294
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[15]~FF_brt_436_brt_1283
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[25]~FF_brt_477_brt_1365
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[15]~FF_brt_439_brt_1276
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[14]~FF_brt_435_brt_1269
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[11]~FF_brt_423_brt_1248
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[8]~FF_brt_411_brt_1231
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[6]~FF_brt_403_brt_1219
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[5]~FF_brt_399_brt_1212
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[3]~FF_brt_391_brt_1197
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v (108)" removed instance : pp/w_gpio_dt_fifo_data[29]~FF_brt_294_brt_1041
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v (108)" representative instance : pp/w_gpio_dt_fifo_data[45]~FF_brt_355_brt_1140
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[46]~FF_brt_557
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[39]~FF_brt_529
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[38]~FF_brt_525
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[37]~FF_brt_519
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[45]~FF_brt_551_brt_1506
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[33]~FF_brt_507
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[45]~FF_brt_551_brt_1506
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[30]~FF_brt_498
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[21]~FF_brt_463
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[13]~FF_brt_430
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[12]~FF_brt_427
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[9]~FF_brt_415
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[6]~FF_brt_402
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[5]~FF_brt_398
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[3]~FF_brt_390
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[2]~FF_brt_385
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[1]~FF_brt_383
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" removed instance : la0_probe14[0]~FF_brt_379
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\pwm_grp_ctrl.v (93)" representative instance : la0_probe14[50]~FF_brt_573_brt_1536
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v (108)" removed instance : pp/w_gpio_dt_fifo_data[1]~FF_brt_193
+@ "C:\Users\Dell\Downloads\periplex_design_5_write_read (5)\periplex_design_5_write_read\periplex_design_5_write_read\design\GPIO_grp_ctrl.v (108)" representative instance : pp/w_gpio_dt_fifo_data[48]~FF_brt_366
+FF Output: pp/uart_grp/r_grp_id[0](=0)
+FF Output: pp/uart_grp/r_slv_sel[0](=0)
+FF Output: pp/uart_grp/r_strobe[1](=0)
+FF Output: pp/uart_grp/r_strobe[2](=0)
+FF Output: pp/uart_grp/r_strobe[3](=0)
+FF Output: pp/uart_grp/r_strobe[4](=0)
+FF Output: pp/uart_grp/r_strobe[5](=0)
+FF Output: pp/uart_grp/r_strobe[6](=0)
+FF Output: pp/uart_grp/r_slv_sel[1](=0)
+FF Output: pp/uart_grp/r_slv_sel[2](=0)
+FF Output: pp/uart_grp/r_slv_sel[3](=0)
+FF Output: pp/uart_grp/r_slv_sel[4](=0)
+FF Output: pp/uart_grp/r_slv_sel[5](=0)
+FF Output: pp/uart_grp/r_slv_sel[6](=0)
+FF Output: pp/GPIO_grp/r_grp_id[0](=0)
+FF Output: pp/GPIO_grp/r_strobe[1](=0)
+FF Output: pp/GPIO_grp/r_strobe[2](=0)
+FF Output: pp/GPIO_grp/r_strobe[3](=0)
+FF Output: pp/GPIO_grp/r_strobe[4](=0)
+FF Output: pp/GPIO_grp/r_strobe[5](=0)
+FF Output: pp/GPIO_grp/r_strobe[6](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[1](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[2](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[3](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[4](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[5](=0)
+FF Output: pp/GPIO_grp/r_slv_sel[6](=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+test_module:test_module                                          8510(0)      745(0)    13595(0)    130(0)     12(0)
+ +test_uartrx:test_uart_rx                                        28(28)        0(0)      59(59)      0(0)      0(0)
+ +test_uartpacket:uart_packetizer                               102(102)        0(0)      95(95)      0(0)      0(0)
+ +test_ppd_fifo:pp_wr_fifo                                         22(0)       30(0)       15(0)      5(0)      0(0)
+  +u_efx_fifo_top:efx_fifo_top_b4d694ab8de34d2793d2b2bb63...       22(2)       30(0)       15(0)      5(0)      0(0)
+   +xefx_fifo_ram:efx_fifo_ram_b4d694ab8de34d2793d2b2bb63...        0(0)        0(0)        3(3)      5(5)      0(0)
+   +xefx_fifo_ctl:efx_fifo_ctl_b4d694ab8de34d2793d2b2bb63...      20(20)      30(30)      12(12)      0(0)      0(0)
+ +pp:periplex                                                    2926(0)      297(0)     7850(0)     14(0)     12(0)
+  +ppd1:pp_decoder                                                70(70)        0(0)  5107(5107)      0(0)      0(0)
+  +uart_grp:uart_grp_ctrl                                       440(440)        0(0)    503(503)      0(0)      4(4)
+  +GPIO_grp:gpio_grp_ctrl                                       460(460)        0(0)    544(544)      0(0)      4(4)
+  +PWM_GRP:pwm_grp_ctrl                                         457(457)        0(0)    470(470)      0(0)      4(4)
+  +UART_PERIPHERAL[0].uartperipheral:uart_peripheral(UART...      541(0)       87(0)      709(0)      5(0)      0(0)
+   +dt_module:dt_top                                              160(0)       27(0)       92(0)      3(0)      0(0)
+    +dt_fifo_51:dt_fifo                                            94(0)       27(0)       43(0)      3(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_378d79e1dcb040219a27875...       94(4)       27(0)       43(0)      3(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_378d79e1dcb040219a27875...        0(0)        0(0)        0(0)      3(3)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_378d79e1dcb040219a27875...      90(54)      27(27)      43(11)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_378d79e...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_378d79...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_378d79e...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_378d79e1...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_378d79e...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_378d79e1...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +dt_ctrl:dt_ctrl                                              66(66)        0(0)      49(49)      0(0)      0(0)
+   +uart:uart_phy(UART_FIFO_DEPTH=16)                             381(0)       60(0)      617(0)      2(0)      0(0)
+    +uart_wr_fifo:uart_fifo                                       104(0)       30(0)       48(0)      1(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_64aa9fb1cea442bcb9c6725...      104(4)       30(0)       48(0)      1(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_64aa9fb1cea442bcb9c6725...        0(0)        0(0)        0(0)      1(1)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_64aa9fb1cea442bcb9c6725...     100(60)      30(30)      48(12)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_64aa9fb...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_64aa9f...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_64aa9fb...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_64aa9fb1...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_64aa9fb...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_64aa9fb1...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +uart_write_ctrl:uart_ctrl                                    12(12)        0(0)      14(14)      0(0)      0(0)
+    +uarttx:uart_tx                                               80(80)        0(0)    225(225)      0(0)      0(0)
+    +uartrx:uart_rx                                               81(81)        0(0)    282(282)      0(0)      0(0)
+    +uart_rd_fifo:uart_fifo                                       104(0)       30(0)       48(0)      1(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_64aa9fb1cea442bcb9c6725...      104(4)       30(0)       48(0)      1(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_64aa9fb1cea442bcb9c6725...        0(0)        0(0)        0(0)      1(1)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_64aa9fb1cea442bcb9c6725...     100(60)      30(30)      48(12)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_64aa9fb...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_64aa9f...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_64aa9fb...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_64aa9fb1...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_64aa9fb...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_64aa9fb1...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+  +GPIO_PERIPHERAL[0].GPIOPERIPHERAL:GPIO_PERIPHERAL              460(0)       87(0)      255(0)      5(0)      0(0)
+   +dt_module:dt_top                                              160(0)       27(0)       91(0)      3(0)      0(0)
+    +dt_fifo_51:dt_fifo                                            94(0)       27(0)       43(0)      3(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_378d79e1dcb040219a27875...       94(4)       27(0)       43(0)      3(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_378d79e1dcb040219a27875...        0(0)        0(0)        0(0)      3(3)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_378d79e1dcb040219a27875...      90(54)      27(27)      43(11)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_378d79e...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_378d79...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_378d79e...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_378d79e1...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_378d79e...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_378d79e1...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +dt_ctrl:dt_ctrl                                              66(66)        0(0)      48(48)      0(0)      0(0)
+   +GPIO_phy_dut:GPIO_phy                                         300(0)       60(0)      164(0)      2(0)      0(0)
+    +gpio_wr_fifo:uart_fifo                                       104(0)       30(0)       48(0)      1(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_64aa9fb1cea442bcb9c6725...      104(4)       30(0)       48(0)      1(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_64aa9fb1cea442bcb9c6725...        0(0)        0(0)        0(0)      1(1)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_64aa9fb1cea442bcb9c6725...     100(60)      30(30)      48(12)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_64aa9fb...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_64aa9f...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_64aa9fb...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_64aa9fb1...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_64aa9fb...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_64aa9fb1...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +gpio_write_ctrl:gpio_ctrl                                    92(92)        0(0)      68(68)      0(0)      0(0)
+    +gpio_rd_fifo:uart_fifo                                       104(0)       30(0)       48(0)      1(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_64aa9fb1cea442bcb9c6725...      104(4)       30(0)       48(0)      1(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_64aa9fb1cea442bcb9c6725...        0(0)        0(0)        0(0)      1(1)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_64aa9fb1cea442bcb9c6725...     100(60)      30(30)      48(12)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_64aa9fb...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_64aa9f...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_64aa9fb...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_64aa9fb1...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_64aa9fb...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_64aa9fb1...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+  +PWM_PERIPHERAL[0].PWMPERIPHERAL:PWM_peripheral                 464(0)      123(0)      239(0)      4(0)      0(0)
+   +dt_module:dt_top                                              160(0)       27(0)       91(0)      3(0)      0(0)
+    +dt_fifo_51:dt_fifo                                            94(0)       27(0)       43(0)      3(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_378d79e1dcb040219a27875...       94(4)       27(0)       43(0)      3(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_378d79e1dcb040219a27875...        0(0)        0(0)        0(0)      3(3)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_378d79e1dcb040219a27875...      90(54)      27(27)      43(11)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_378d79e...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_378d79...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_378d79e...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_378d79e1...        0(0)        0(0)        8(8)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_378d79e...      18(18)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_378d79e1...        0(0)        0(0)        8(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_378...        0(0)        0(0)        7(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_37...        0(0)        0(0)        6(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        5(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        4(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        3(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        2(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +dt_ctrl:dt_ctrl                                              66(66)        0(0)      48(48)      0(0)      0(0)
+   +PWM_phy_dut:PWM_phy                                           304(0)       96(0)      148(0)      1(0)      0(0)
+    +pwm_wr_fifo:uart_fifo                                        104(0)       30(0)       48(0)      1(0)      0(0)
+     +u_efx_fifo_top:efx_fifo_top_64aa9fb1cea442bcb9c6725...      104(4)       30(0)       48(0)      1(0)      0(0)
+      +xefx_fifo_ram:efx_fifo_ram_64aa9fb1cea442bcb9c6725...        0(0)        0(0)        0(0)      1(1)      0(0)
+      +xefx_fifo_ctl:efx_fifo_ctl_64aa9fb1cea442bcb9c6725...     100(60)      30(30)      48(12)      0(0)      0(0)
+       +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_64aa9fb...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_64aa9f...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_64aa9fb...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+       +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_64aa9fb1...        0(0)        0(0)        9(9)      0(0)      0(0)
+       +genblk7.wr2rd_addr_sync:efx_fifo_datasync_64aa9fb...      20(20)        0(0)        0(0)      0(0)      0(0)
+       +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_64aa9fb1...        0(0)        0(0)        9(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64a...        0(0)        0(0)        8(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_64...        0(0)        0(0)        7(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_6...        0(0)        0(0)        6(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        5(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        4(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        3(1)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        2(1)      0(0)      0(0)
+               +genblk1.genblk1.u_gray2bin:efx_fifo_gray2...        0(0)        0(0)        1(1)      0(0)      0(0)
+    +pwm_generator_dut:pwm_generator                            200(200)      66(66)    100(100)      0(0)      0(0)
+  +req_arb:rd_req_arb                                               5(5)        0(0)        4(4)      0(0)      0(0)
+  +ppe1:pp_encoder                                                29(29)        0(0)      19(19)      0(0)      0(0)
+ +test_ppe_fifo:pp_wr_fifo                                         22(0)       30(0)       12(0)      5(0)      0(0)
+  +u_efx_fifo_top:efx_fifo_top_b4d694ab8de34d2793d2b2bb63...       22(2)       30(0)       12(0)      5(0)      0(0)
+   +xefx_fifo_ram:efx_fifo_ram_b4d694ab8de34d2793d2b2bb63...        0(0)        0(0)        0(0)      5(5)      0(0)
+   +xefx_fifo_ctl:efx_fifo_ctl_b4d694ab8de34d2793d2b2bb63...      20(20)      30(30)      12(12)      0(0)      0(0)
+ +test_txctrl:test_tx_ctrl                                        65(65)        0(0)      50(50)      0(0)      0(0)
+ +test_uarttx:test_uart_tx(CLKS_PER_BIT=435)                      25(25)        0(0)      36(36)      0(0)      0(0)
+ +edb_top_inst:edb_top                                        5320(5320)    388(388)  5478(5478)  106(106)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops   Memory Ports    Multipliers
+          -----     ----------   ------------    -----------
+           clk1           4839            238              1
+           clk2            705             22              0
+ jtag_inst1_TCK           2966              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : test_module
+root : test_module
+I,include : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read
+I,include : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/ip/dt_fifo
+I,include : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/ip/uart_fifo
+I,include : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/ip/pp_wr_fifo
+output-dir : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow
+work-dir : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_dbg
+write-efx-verilog : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_dbg/periplex_design_4.dbg.map.v
+binary-db : C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_dbg/periplex_design_4.dbg.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	22
+OUTPUT PORTS    : 	22
+
+EFX_ADD         : 	745
+EFX_LUT4        : 	13595
+   1-2  Inputs  : 	3384
+   3    Inputs  : 	3048
+   4    Inputs  : 	7163
+EFX_MULT        : 	12
+EFX_FF          : 	8510
+EFX_RAM_5K      : 	130
+EFX_GBUFCE      : 	3
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 345s
+Elapsed synthesis time : 348s

@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2023.2.307 
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+Compiled: Dec 15 2023.
+
+Using source file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr/periplex_design_4.lbf"
+Generating HEX programming file for device "T120F324", family "Trion"
+Using periphery source file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.lpf"
+Generating bit file: "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	release_tri_then_reset                   = on
+Finished generating "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.hex"
+Efinity Bitstream Generator took 27.5544 seconds.
+	Efinity Bitstream Generator took 15.7969 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.44 MB, end = 7.036 MB, delta = 4.596 MB
+	Efinity Bitstream Generator peak virtual memory usage = 227.564 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7.504 MB, end = 15.344 MB, delta = 7.84 MB
+	Efinity Bitstream Generator peak resident set memory usage = 202.464 MB
