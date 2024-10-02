@@ -89,10 +89,6 @@ To get started with this project, you'll need the following:
 
 1. **Clone the Repository**:
 
-    ```bash
-    git clone https://github.com/your-username/amba-apb-uart-gpio-pwm-fpga.git
-    cd amba-apb-uart-gpio-pwm-fpga
-    ```
 
 2. **Open the Project**:
    - Open your FPGA IDE (Vivado for Xilinx or Quartus for Intel FPGAs).
@@ -116,10 +112,6 @@ To get started with this project, you'll need the following:
 
 The project includes a testbench for functional simulation of all three peripherals. To run a simulation, use the following command in your simulator environment:
 
-```bash
-# Run simulation
-vsim work.testbench_tb
-```
 
 ### Parametric Design (Future)
 
@@ -130,7 +122,7 @@ In the future, this project will implement a parametric APB master that will dyn
 
 ## FPGA Board
 
-This project has been tested on a [Insert FPGA Board Name], but it can be adapted to other FPGA platforms by adjusting the I/O pin configurations in the constraints file.
+This project has been tested on a VAAMAN FPGA Board, but it can be adapted to other FPGA platforms by adjusting the I/O pin configurations in the constraints file.
 
 ## Future Work
 
